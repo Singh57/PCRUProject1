@@ -1,10 +1,10 @@
 <?php
-$title = "Contact";
+$title = "About";
 
 $content = '<h3>Contact</h3>
     <div>
            <p>For general inquiries, please contact <b>Dr Peter Shaw</b>.</p>
-<h3>Postal Address</h3>
+<h1>Postal Address</h1>
 <p><b>Parameterized Complexity Research Unit</b><br />
 School of Engineering and Information Technology<br />
 Charles Darwin University<br />

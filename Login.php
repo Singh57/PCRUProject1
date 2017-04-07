@@ -1,21 +1,17 @@
 <?php
-$title = "Admin";
+$title = "About";
 
-$content = "<form action='' method='post'>
-    <fieldset>
-    
-        <legend><h3>Authentication</h3></legend><br/>
+$content = '<h3>Administration Login</h3>
         
-        <label for='name'>Username: </label>
-        <input type='text' class='inputField' name='txtName' /><br/><br/>
+    <br/>
 
-        <label for='price'>Password: </label>
-        <input type='text' class='inputField' name='txtPrice' /><br/><br/>
+<li><a href="Papers.php">Add New Event</a></li>
+<br/>
+<li><a href="Papers.php">Add New Researcher</a></li>
+<br/>
 
-       
 
-        <input type='submit' value='Submit'><br/><br/>
-    </fieldset>
-</form>";
+
+';
 include './Template.php';
 ?>

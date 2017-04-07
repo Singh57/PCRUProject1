@@ -1,5 +1,5 @@
 <?php
-$title = "Csu";
+$title = "About";
 
 $content = '<h3>Computer Science... without a Computer!</h3>
            <div>
