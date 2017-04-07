@@ -347,8 +347,8 @@ src="http://www.ezwebsitecounter.com/c.js?id=162777"></script>
 
 
 
-</div> <!-- div contentwrapper -- -->
-</div> <!-- div wrapper -- -->
+</div> <!-- div for contentwrapper -- -->
+</div> <!-- div for wrapper -- -->
 </body>
 
 </html>
