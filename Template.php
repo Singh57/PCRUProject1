@@ -13,7 +13,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 <link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="shortcut icon" href="Oimages/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
 <script type="text/javascript" src="./js/rt-menu.js"></script>
 <script type="text/javascript" src="./js/js_9dbc62f17dada3128baa71d7eb582ac9.js"></script>
 
@@ -41,14 +41,14 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 <div id="top-container">
 <div id="utility-bar">
 
-    	<a href="http://www.cdu.edu.au">CDU Home</a> | <a href="http://www.cdu.edu.au/about">About CDU</a> | <a href="http://stapps.cdu.edu.au/pls/apex/f?p=100:30:141206078553142">Courses</a> | <a href="http://www.cdu.edu.au/faculties">Faculties &amp; Schools</a> | <a href="http://www.cdu.edu.au/teachingandlearning/">Learning &amp; Teaching</a> | <a href="http://www.cdu.edu.au/library/">Library</a> | <a href="http://www.cdu.edu.au/campuses-centres">Campuses &amp; Centres</a> | <a href="http://www.cdu.edu.au/newsroom/contacts.html">Media</a> | <a href="http://www.cdu.edu.au/about/contact-cdu">Contact Us</a>
+    	<a href="http://www.cdu.edu.au/about">CDU Home</a> | <a href="http://www.cdu.edu.au/about">About CDU</a> | <a href="http://stapps.cdu.edu.au/f?p=100:30:0::NO::P30_SECTOR:HE">Courses</a> | <a href="http://www.cdu.edu.au/faculties-schools">Faculties &amp; Schools</a> | <a href="http://www.cdu.edu.au/faculties-schools">Learning &amp; Teaching</a> | <a href="http://www.cdu.edu.au/library/">Library</a> | <a href="http://www.cdu.edu.au/campuses-centres">Campuses &amp; Centres</a> | <a href="http://www.cdu.edu.au/media-public-relations/media">Media</a> | <a href="http://www.cdu.edu.au/contact-cdu">Contact Us</a>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a class="ico-key" href="http://learnline.cdu.edu.au">Learnline Login</a>
 </div></div>
 
 <div id="wrapper">
 <p></p>
-	<div id="header"> <a href="http://www.cdu.edu.au"><img src="Oimages/pcru-logo.png" alt="Parameterized Complexity Research Unit" title="Charles Darwin University Home"  border="0" usemap="#Map" />
+	<div id="header"> <a href="http://www.cdu.edu.au"><img src="Images/pcru-logo.png" alt="Parameterized Complexity Research Unit" title="Charles Darwin University Home"  border="0" usemap="#Map" />
         <map name="Map" id="Map">
           <area shape="rect" coords="215,4,396,59" href="" alt="Parameterized Complexity Research Unit Home" title="Parameterized Complexity Research Unit Home" target="_blank"  />
           <area shape="rect" coords="5,2,210,59" href="http://www.cdu.edu.au" alt="Charles Darwin University Home" target="_blank"  />
@@ -88,70 +88,71 @@ WWW
 <div class="clearer"></div> 
 <div id="contentwrapper">
     <div id="Content">
-	<p><img src="Oimages/welcome.png" alt="Welcome to PCRU"  /> </p>
+        <p><img src="Images/redimages2.jpg" alt="Welcome to PCRU"  /> </p>
     <div id="banner" class="getleft loop-enabled">	
 	<div class="container">
 	<div class="slides">
-				<div class="slide">
-				<img class="imgbg" src="Oimages/banner01.jpg">
-				
-				<div class="col-half">
-				<h3 class="bn-heading">Happy Sixtieth Birthday</h3>
-					<div class="sub">
-					<div class="field-content">
-					<p>Michael Fellows celebrates his 60th birthday</p>
-					</div>
-					</div>
-				<a class="btn-red" href="http://www.cdu.edu.au/engit/staff/michael_fellows.htm" alt="" target="_blank" ><span>Read More</span></a>										
-				
-				
-				</div>
-				</div>
-				
-				<div class="slide">
-				<img class="imgbg" src="Oimages/banner02.jpg">
-				
-				<div class="col-half">
-				<h3 class="bn-heading">Frances Rosamond</h3>
-				<div class="sub"><div class="field-content"><p>Multivariate Mathematics - a journey together</p>
-				</div></div>
-				<a class="rspacer btn-red" href="http://www.cdu.edu.au/engit/staff/frances_rosamond.htm" alt="" target="_blank" ><span>Read more</span></a>						
-				
-				</div>
-				</div>
-				
-				
-				
-				<div class="slide">
-				<img class="imgbg" src="Oimages/banner04.jpg">
+			
+            
+            <div class="slide">
+                <img class="imgbg" src="Images/banner1.jpg">
 				
 				<div class="col-half">
 				<h3 class="bn-heading">Always Parameterize</h3>
-				<div class="sub"><div class="field-content"><p>Parameterized Complexity Research Unit is established in CDU!!</p>
+                                <div class="sub"><div class="field-content"><p><h2>Parameterized Complexity Research Unit is established in CDU!!</h2></p>
 				</div></div>
-				<a class="rspacer btn-red" href="http://www.cdu.edu.au/parameterized-nag/" alt="" target="_blank" ><span>Read more</span></a>						
+				<a class="rspacer btn-red" href="http://www.cdu.edu.au/engit/pcru" alt="" target="_blank" ><span>Read more</span></a>						
 				
 				</div>
 				</div>
-				
-            <div class="slide">
-				<img class="imgbg" src="Oimages/banner03.jpg">
+            
+             <div class="slide">
+				<img class="imgbg" src="Images/banner03.jpg">
 				
 				<div class="col-half">
-				<h3 class="bn-heading">Peter Shaw </h3>
+				<h3 class="bn-heading">Dr. Peter Shaw </h3>
 					<div class="sub">
 					<div class="field-content">
-					<p>Senior Lecturer, Information Technology and Electrical Engineering</p>
+                                            <p><h2>Senior Lecturer,Information Technology and Electrical Engineering</h2></p>
 					</div>
 					</div>
-				<a class="btn-red" href="http://www.cdu.edu.au/engit/staff/peter_shaw.htm" alt="" target="_blank" ><span>Read More</span></a>										
+				<a class="btn-red" href="http://www.cdu.edu.au/engit/staff-profiles/peter-shaw" alt="" target="_blank" ><span>Read More</span></a>										
+				
+				
+				</div>
+				</div>
+            
+            <div class="slide">
+				<img class="imgbg" src="Images/banner01.jpg">
+				
+				<div class="col-half">
+				<h3 class="bn-heading">Prof. Michael Fellows</h3>
+					<div class="sub">
+					<div class="field-content">
+                                            <p><h2>Australian Professional Fellow-Mathematics</h2></p>
+					</div>
+					</div>
+				<a class="btn-red" href="http://www.cdu.edu.au/engit/staff-profiles/michael-fellows" alt="" target="_blank" ><span>Read More</span></a>										
 				
 				
 				</div>
 				</div>
 				
-
-						
+	   <div class="slide">
+				<img class="imgbg" src="Images/banner02.jpg">
+				
+				<div class="col-half">
+				<h3 class="bn-heading">Prof. Frances Rosamond</h3>
+                                <div class="sub"><div class="field-content"><p><h2>Multivariate Mathematics - a journey together</h2></p>
+				</div></div>
+				<a class="rspacer btn-red" href="http://www.cdu.edu.au/engit/staff-profiles/frances-rosamond" alt="" target="_blank" ><span>Read more</span></a>						
+				
+				</div>
+				</div>
+				
+		   
+            
+           		
 	</div>
 	</div>
 	<a class="previous" href="#" > &nbsp;<&nbsp;</a>
@@ -183,17 +184,17 @@ WWW
 
 <div class="clearer"></div>
 
-	<h3> Flash News Updates for PCRU!</h3>
-        <p><h4> <a href = "award.html"> 2013 ETH-Zurich Award for Computer Science Education. (Together with Tim Bell and Ian Witten, from NEW ZEALAND, for the Computer Science Unplugged! Project)</a></h4></p>
-		<div class = "news-col1"> <h1>Latest News From Twitter</h1>
+	<h4> Flash News Updates for PCRU!</h4>
+        <p> <a href = "award.html"><h5> 2017 ETH-Zurich Award for Computer Science Education. (Together with Tim Bell and Ian Witten, from NEW ZEALAND, for the Computer Science Unplugged! Project)</h5></a></p>
+		<div class = "news-col1"> <h4>Latest News From Twitter</h4>
 		<div id ="tweet"> </div> 
 		</div>
         
 		<div class ="news-col2">
-                    <h1>Parameterized Complexity - 2017</h1>
+                    <h4>Parameterized Complexity - 2017</h4>
 		 
                     <p>Read the 
-                        <a href="http://fpt.wdfiles.com/local--files/welcome/Summary.pdf" target="_blank" >Quick Summary of Parameterized Complexity - 2012 </a></p>
+                        <a href="http://fpt.wdfiles.com/local--files/welcome/Summary.pdf" target="_blank" >Quick Summary of Parameterized Complexity - 2017 </a></p>
                     
                     <p>Read the 
                         <a href="http://fpt.wikidot.com/fpt-news:the-parameterized-complexity-newsletter" target="_blank" >Parameterized Complexity Newslater </a></p>
@@ -238,7 +239,7 @@ WWW
 	<h3 class="tab-heading">Contact us</h3>
 	<div class="contactdetails">
       <span>PCRU<br />
-        <strong>Casuarina campus:</strong> <br />
+        <strong>Casuarina Campus:</strong> <br />
       T: +61 8 8946 6666<br />
       F: +61 8 8927 0612<br />
           Ellengowan Drive, Casuarina<br>
@@ -247,11 +248,7 @@ WWW
       E: <a href="mailto:pcru@cdu.edu.au">pcru@cdu.edu.au </a>
       
       </span><br /><br />
-      <span><strong>Alice Springs campus:</strong><br /> 
-      T: +61 8 8946 6157<br />
-      F: +61 8 8946 6680
-      <br />
-      E: <a href="mailto:pcru@cdu.edu.au">pcru@cdu.edu.au</a></span>
+     
 </div> 
 	
 <h4 class="facebook"><a href="http://www.facebook.com/pcru.cdu?skip_nax_wizard=true" target="_blank" >Like Us in Facebook </a></h4>
@@ -347,8 +344,8 @@ src="http://www.ezwebsitecounter.com/c.js?id=162777"></script>
 
 
 
-</div> <!-- div for contentwrapper -- -->
-</div> <!-- div for wrapper -- -->
+</div> <!-- div contentwrapper -- -->
+</div> <!-- div wrapper -- -->
 </body>
 
 </html>

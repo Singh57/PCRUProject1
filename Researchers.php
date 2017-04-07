@@ -1,5 +1,5 @@
 <?php
-$title = "About";
+$title = "Researchers";
 
 $content = '<h3>Our Researchers</h3>
      <div>      	
@@ -7,29 +7,25 @@ $content = '<h3>Our Researchers</h3>
 
 
 <ul>
-    <li><div class="mike">Prof. Michael Fellows</div>
-        
-        
-		<ul> 
-		<h1>Australian Professorial Fellow - Mathematics</h1>
+    <li><div class="mike"><h3>Prof. Michael Fellows</h3></div>
+       	<ul> 
+		<h2>Designation - Australian Professorial Fellow - Mathematics</h2>
         <h4>Research Interests</h4>
 			<li>Computational complexity theory and parameterized / multivariate complexity theory, foundations and methods</li>
 			<li>Computer Science Unplugged ... online activities and games for all ages, 231 pp., 1996, with Tim Bell and Ian Witten</li>
 			<li>Parameterized Complexity, 530 pp., Springer-Verlag, 1999, with R.G. Downey</li>
-        		
-		<h4>Current research projects</h4>
-                
-			<li>Applications of parameterized complexity and algorithms in computational social choice</li>
+        	<h4>Current research projects</h4>
+                	<li>Applications of parameterized complexity and algorithms in computational social choice</li>
 			<li>Foundations of fully multivariate complexity analysis</li>
 			<li>Applications of parameterized complexity in cryptography and algebraic problems</li>
 			<li>FPT metatheorems based on well-quasi-ordering</li>
       </ul>
     </li>
-    
-    <li><div class="fran">Prof. Frances Rosamond </div>
+    <br/>
+    <li><div class="fran"><h3>Prof. Frances Rosamond</h3> </div>
         <ul>
           
-        <h1>Professorial Research Fellow - Mathematics</h1>
+        <h2>Designation - Professorial Research Fellow - Mathematics</h2>
         <h4>Research Interests</h4>
 		 
 			<li>Computational complexity theory and parameterized / multivariate complexity theory, kernelization, combinatorial algorithms</li>
@@ -42,11 +38,12 @@ $content = '<h3>Our Researchers</h3>
 			<li>Foundations of multivariate complexity</li>
       </ul>
      </li>
+     <br/>
      
-      <li><div class="peter">Dr. Peter Shaw</div>
+      <li><div class="peter"><h3>Dr. Peter Shaw</h3></div>
         <ul>
           
-        <h1>Senior Lecturer</h1>
+        <h2>Designation - Senior Lecturer</h2>
         <h4>Research Interests</h4>
 		
 			<li>Parameterized/multivariate (FPT) algorithms and algorithmic methods - Multivariate algorithms offer solutions to many problem that are intractable using the conventional algorithmic paradigm. Multivariate algorithmic techniques have so far proven useful in areas such as bioinformatics. Applications for FPT algorithms of particular interest are econometrics and analysis of social networking.</li>
@@ -64,10 +61,10 @@ $content = '<h3>Our Researchers</h3>
 		
         </ul>
       </li>
-      
-      <li><div class="mahadi"> Dr. Mahdi Parsa</div>
+      <br/>
+      <li><div class="mahadi"><h3> Dr. Mahdi Parsa</h3></div>
         <ul> 
-		<h1>Designation - Mathematics</h1>
+		<h2>Designation - Mathematics</h2>
            <h4>Research Interests</h4>
 		<li>Computational complexity theory and parameterized / multivariate complexity theory, foundations and methods</li>
 			<li>Computer Science Unplugged ... online activities and games for all ages, 231 pp., 1996, with Tim Bell and Ian Witten</li>
@@ -83,10 +80,11 @@ $content = '<h3>Our Researchers</h3>
         </ul>
 		
       </li>
-      <li> <div class="judy"> Dr. Judith</div>
+      <br/>
+      <li><div class="judy"><h3> Dr. Judith</h3></div>
        
         <ul>   
-        <h1>Designation - Mathematics</h1>
+        <h2>Designation - Mathematics</h2>
         <h4>Research Interests</h4>
 		
 			<li>Computational complexity theory and parameterized / multivariate complexity theory, foundations and methods</li>

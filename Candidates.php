@@ -2,73 +2,56 @@
 $title = "About";
 
 $content = '<h3>Candidates List</h3>
-        
-    <div>
-      <ul class="LIST">
-      
-
-        <li><a> Current Phd Candidates </a></li>
-        
-      <select style=" background-color:lightskyblue ">
-  <option value="Select" >List of Current phd Candidates</option>}
-  <option value="Vineet">Vineet</option>
-   <option value="Maneesh">Maneesh</option>
-  <option value="Priyanka">Peter</option>
-  <option value="Neha">Saini</option>
-</select> 
-<br/>
-<br/>
      
-
-<li><a>Non PCRU Phd Candidates</a></li> 
- <select style=" background-color:lightskyblue ">
-  <option value="Select" >List of Non Phd Candidates</option>}
-  <option value="Vineet">Vineet</option>
-   <option value="Maneesh">Maneesh</option>
-  <option value="Priyanka">Peter</option>
-  <option value="Neha">Saini</option>
-</select> 
-<br/>
 <br/>
 
-<li><a >Staff Members</a></li>
- <select style=" background-color:lightskyblue ">
-  <option value="Select" >List of Staff Members</option>}
-  <option value="Vineet">Vineet</option>
-   <option value="Maneesh">Maneesh</option>
-  <option value="Priyanka">Peter</option>
-  <option value="Neha">Saini</option>
-</select> 
-<br/>
-<br/>
+<li><a href="Partnerships.php">Current Phd Candidates</a></li>
 
-      <li><a >Visitors</a></li>
-      
- <select style=" background-color:lightskyblue ">
-  <option value="Select" >List of Visitors</option>}
-  <option value="Vineet">Vineet</option>
-   <option value="Maneesh">Maneesh</option>
-  <option value="Priyanka">Peter</option>
-  <option value="Neha">Saini</option>
-</select> 
+<ul>
+<li><a href="Partnerships.php">Adam Maheswar </a></li>
 <br/>
+<li><a href="Partnerships.php">John Dhiere </a></li>
 <br/>
- 
-<li><a >Key Collaborators</a></li>
- <select style=" background-color:lightskyblue ">
-  <option value="Select" >List of Collaborators</option>}
-  <option value="Vineet">Vineet</option>
-   <option value="Maneesh">Maneesh</option>
-  <option value="Priyanka">Peter</option>
-  <option value="Neha">Saini</option>
-</select>    
+</ul>
 
+<li><a href="Partnerships.php">Non PCRU Phd Candidates</a></li>
+
+<ul>
+<li><a href="Partnerships.php">Hine Bedi</a></li>
+<br/>
+<li><a href="Partnerships.php">Bob wither </a></li>
+<br/>
+</ul>
+
+<li><a href="Partnerships.php">Staff Members</a></li>
+
+<ul>
+<li><a href="Partnerships.php">Prof. Peter Shaw </a></li>
+<br/>
+<li><a href="Partnerships.php">Prof. Frances Rosamond </a></li>
+<br/>
+<li><a href="Partnerships.php">Prof.Michael Fellows</a></li>
+<br/>
 
 </ul>
-     
+
+<li><a href="Partnerships.php">Visitors</a></li>
+
+<ul>
+<li><a href="Partnerships.php">Julia Roberts </a></li>
+<br/>
+<li><a href="Partnerships.php">Rese Fransis </a></li>
+<br/>
+</ul>
+
+<li><a href="Partnerships.php">Key Collaborators</a></li>
+
+<ul>
+<li><a href="Partnerships.php">University Manager</a></li>
+<br/>
 
 
-  </div>
+
 ';
 include './Template.php';
 ?>

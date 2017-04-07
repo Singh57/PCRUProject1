@@ -1,10 +1,12 @@
 <?php
-$title = "About";
+$title = "Resources";
 
 $content = '<h3>Resources</h3>
     <div>
-           <div class="rheader"><h1>Publications in text.bib</h1></div>
-<div class="btb-header"><h1>Refereed Articles and Book Chapters</h1></div>
+           <div class="rheader"><h4>Publications in text.bib</h4></div>
+           
+<div class="btb-header"><h3>Referred Articles and Book Chapters</h3></div>
+
 <table class="result">
 <tr class="bibline"><td  class="bibref">[1]</td> <td class="bibitem">H. L. Bodlaender et al., &quot;<span class="bibtitle">Quadratic Kernelization for Convex Recoloring of Trees</span>&quot;, <em>ALGORITHMICA</em>, vol. 61, no. 2, OCT 2011, pp. 362-388.
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Quadratic+Kernelization+for+Convex+Recoloring+of+Trees&amp;rft.jtitle=ALGORITHMICA&amp;rft.volume=61&amp;rft.issue=&amp;rft.pub=&amp;rft_id=info%3Adoi%2F10.1007%2Fs00453-010-9404-2&amp;rfr_id=info%3Asid%2Fkang.fm%3Atext.bib&amp;rft.date=2011&amp;rft.au=Hans+L.+Bodlaender&amp;rft.au=Michael+R.+Fellows&amp;rft.au=Michael+A.+Langston&amp;rft.au=Mark+A.+Ragan&amp;rft.au=Frances+A.+Rosamond&amp;rft.au=Mark+Weyer"></span> <a class="biburl" title="ISI:000293234800007" href="bibtex2html.php?key=ISI%3A000293234800007&amp;bib=text.bib">[bibtex]</a> <a href="http://dx.doi.org/10.1007/s00453-010-9404-2">[doi]</a></td></tr>
@@ -125,7 +127,7 @@ $content = '<h3>Resources</h3>
 <tr class="bibline"><td  class="bibref">[59]</td> <td class="bibitem">M. DINNEEN, M. FELLOWS and V. FABER, &quot;<span class="bibtitle">ALGEBRAIC CONSTRUCTIONS OF EFFICIENT BROADCAST NETWORKS</span>&quot;, <em>LECTURE NOTES IN COMPUTER SCIENCE</em>, vol. 539, 1991, pp. 152-158.
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=ALGEBRAIC+CONSTRUCTIONS+OF+EFFICIENT+BROADCAST+NETWORKS&amp;rft.jtitle=LECTURE+NOTES+IN+COMPUTER+SCIENCE&amp;rft.volume=539&amp;rft.issue=&amp;rft.pub=&amp;rfr_id=info%3Asid%2Fkang.fm%3Atext.bib&amp;rft.date=1991&amp;rft.au=MJ+DINNEEN&amp;rft.au=MR+FELLOWS&amp;rft.au=V+FABER"></span> <a class="biburl" title="ISI:A1991LE71800016" href="bibtex2html.php?key=ISI%3AA1991LE71800016&amp;bib=text.bib">[bibtex]</a></td></tr>
 </table>
-<div class="btb-header"><h1>Refereed Conference Papers</h1></div>
+<div class="btb-header"><h3>Referred Conference Papers</h3></div>
 <table class="result">
 <tr class="bibline"><td  class="bibref">[60]</td> <td class="bibitem">M. R. Fellows, S. Gaspers and F. A. Rosamond, &quot;<span class="bibtitle">Parameterizing by the Number of Numbers</span>&quot;, in <em>PARAMETERIZED AND EXACT COMPUTATION</em>, V. Raman, S. Saurabh, Eds., 2010, pp. 123-134.
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Parameterizing+by+the+Number+of+Numbers&amp;rft.btitle=PARAMETERIZED+AND+EXACT+COMPUTATION&amp;rft.genre=bookitem&amp;rft.pub=&amp;rfr_id=info%3Asid%2Fkang.fm%3Atext.bib&amp;rft.date=2010&amp;rft.au=Michael+R.+Fellows&amp;rft.au=Serge+Gaspers&amp;rft.au=Frances+A.+Rosamond"></span> <a class="biburl" title="ISI:000286165700013" href="bibtex2html.php?key=ISI%3A000286165700013&amp;bib=text.bib">[bibtex]</a></td></tr>
@@ -192,7 +194,7 @@ $content = '<h3>Resources</h3>
 <tr class="bibline"><td  class="bibref">[91]</td> <td class="bibitem">M. Fellows, M. Hallett and U. Stege, &quot;<span class="bibtitle">On the multiple gene duplication problem</span>&quot;, in <em>ALGORITHMS AND COMPUTATIONS</em>, K. Chwa, O. Ibarra, Eds., 1998, pp. 347-356.
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=On+the+multiple+gene+duplication+problem&amp;rft.btitle=ALGORITHMS+AND+COMPUTATIONS&amp;rft.genre=bookitem&amp;rft.pub=&amp;rfr_id=info%3Asid%2Fkang.fm%3Atext.bib&amp;rft.date=1998&amp;rft.au=M+Fellows&amp;rft.au=M+Hallett&amp;rft.au=U+Stege"></span> <a class="biburl" title="ISI:000165171800037" href="bibtex2html.php?key=ISI%3A000165171800037&amp;bib=text.bib">[bibtex]</a></td></tr>
 </table>
-<div class="btb-header"><h1>Refereed Workshop Papers</h1></div>
+<div class="btb-header"><h3>Referred Workshop Papers</h3></div>
 <table class="result">
 <tr class="bibline"><td  class="bibref">[92]</td> <td class="bibitem">M. Fellows et al., &quot;<span class="bibtitle">Milling a Graph with Turn Costs: A Parameterized Complexity Perspective</span>&quot;, in <em>GRAPH-THEORETIC CONCEPTS IN COMPUTER SCIENCE</em>, D. Thilikos, Ed., 2010, pp. 123-134.
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Milling+a+Graph+with+Turn+Costs%3A+A+Parameterized+Complexity+Perspective&amp;rft.btitle=GRAPH-THEORETIC+CONCEPTS+IN+COMPUTER+SCIENCE&amp;rft.genre=bookitem&amp;rft.pub=&amp;rfr_id=info%3Asid%2Fkang.fm%3Atext.bib&amp;rft.date=2010&amp;rft.au=Mike+Fellows&amp;rft.au=Panos+Giannopoulos&amp;rft.au=Christian+Knauer&amp;rft.au=Christophe+Paul&amp;rft.au=Frances+Rosamond&amp;rft.au=Sue+Whitesides&amp;rft.au=Nathan+Yu"></span> <a class="biburl" title="ISI:000289453400013" href="bibtex2html.php?key=ISI%3A000289453400013&amp;bib=text.bib">[bibtex]</a></td></tr>

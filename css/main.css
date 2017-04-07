@@ -1,22 +1,21 @@
 body{
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 	margin:0;
 	padding:0;
 	background-color:#ffffff;
 	background-position:center;
-	background-repeat:repeat-y;
 	}
 	
 #top-container {
 	height:30px;
 	overflow: hidden;
-	background-image:url(../Oimages/cducolor.JPG);
+	background-image:url(../Images/Capture1.JPG);
 	background-repeat:repeat-x;
 	}
 	
 /* ============= utility bar ================= */
 #utility-bar {
-	color:#fff;
+	color: #FFF;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	width:956px;
@@ -67,32 +66,32 @@ body{
 	padding-left: 0px;
 } 
 
-h1 {font-size: 125%!important; font-weight: bold;line-height: normal; font-family:Arial, Helvetica, sans-serif; color: #000; padding-top: 10px;clear:both;}
-h2 {font-size: 120%!important; font-weight: normal;line-height: normal; margin-bottom: -0.6em; color: #ffc;}
-h3 {font-size: 110%; font-weight: bold; line-height: normal; text-align: left; color: brown;}
-h4 {font-size: 14px;font-weight: bold;line-height: normal; color: #009;}
-h5 {font-size:14px;font-weight: bold;line-height: normal; margin-bottom: -0.6em; }
-h6 {font-size:80%;font-weight: bold;line-height: normal;}
+h1 {font-size: 125%!important; font-weight: bold;line-height: normal; font-family: sans-serif; color: #000; padding-top: 10px;clear:both;}
+h2 {font-size: 120%!important; font-weight: normal;line-height: normal; margin-bottom: -0.6em; color:white ; font-family: sans-serif;}
+h3 {font-size: 110%; font-weight: bold;  line-height: normal; text-align: left; color: #990000; font-family: sans-serif;}
+h4 {font-size: 18px;font-weight: bold;line-height: normal; color: midnightblue;font-family: sans-serif;}
+h5 {font-size:14px;font-weight: bold;line-height: normal; margin-bottom: -0.6em; font-family: sans-serif;}
+h6 {font-size:80%;font-weight: bold;line-height: normal; font-family: sans-serif;}
 
-p {font-size:100%; font-weight: normal; line-height: normal; clear:both;}
-ol {font-size: 100%; font-weight: normal;line-height: normal;}
-ul {font-size: 100%; font-weight: normal;line-height: normal;}
-li {font-size:100%; font-weight: normal; line-height: 1.4;line-height: normal;padding-left: 0.2em;}
-tr {font-size: small; color: #2f2f2f; font-weight: normal;line-height: normal; border: 1px solid #000;}
-th {font-size: small; color: #2f2f2f; font-weight: bold;line-height: normal;}
+p {font-size:100%; font-weight: normal;font-family: sans-serif;color: black; line-height: normal; clear:both;}
+ol {font-size: 100%; font-weight: normal;line-height: normal;font-family: sans-serif;}
+ul {font-size: 100%; font-weight: normal;line-height: normal;font-family: sans-serif;}
+li {font-size:100%; font-weight: normal; line-height: 1.4;font-family: sans-serif; color: black;line-height: normal;padding-left: 0.2em;}
+tr {font-size: small; color: midnightblue; font-weight: normal;line-height: normal; border: 1px solid #000;font-family: sans-serif;}
+th {font-size: small; color: midnightblue; font-weight: bold;line-height: normal;font-family: sans-serif;}
 a{text-decoration:none; color: inherit}
 a:hover{text-decoration:underline;}
 a img{border:0 none;}
 
 .facebook a{font-size: 14px;font-weight: bold;line-height: normal; color: #009;
-	background: url(../Oimages/fb.png);
+	background: url(../Images/fb.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding: 10px 0 10px 26px;
 	
 	}
 .twitter a{font-size: 14px;font-weight: bold;line-height: normal; color: #009;
-	background: url(../Oimages/twitter.png);
+	background: url(../Images/twitter.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding: 10px 0 10px 26px;}
@@ -141,7 +140,7 @@ float: left;
 bottom: 1em;
 padding: 185px 0px 6px 12px;
 width: 190px;
-background: url(../Oimages/logo.png) no-repeat scroll 10px 20px;
+background: url(../Images/logo.png) no-repeat scroll 10px 20px;
 background-repeat: no-repeat;
 border-left: #999 solid 1px;
 }
@@ -228,32 +227,32 @@ padding: 15px 0 5px 40px;
 color: #000;}
 
 #accordion div.peter {
-	background-image: url(../Oimages/peter_shaw.jpg) ;
+	background-image: url(../Images/peter_shaw.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 #accordion div.mike {
-	background-image: url(../Oimages/mike.jpg) ;
+	background-image: url(../Images/mike.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 #accordion div.fran {
-	background-image: url(../Oimages/fran.jpg) ;
+	background-image: url(../Images/fran.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 #accordion div.mahadi {
-	background-image: url(../Oimages/mahadi.jpg) ;
+	background-image: url(../Images/mahadi.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 
 #accordion div.judy {
-	background-image: url(../Oimages/judy.jpg) ;
+	background-image: url(../Images/judy.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
@@ -268,7 +267,7 @@ color: #000;}
 
 
 #accordion ul li {
-	background-image: url(../Oimages/diamond.png) ;
+	background-image: url(../Images/diamond.png) ;
 	background-repeat: no-repeat;
 	background-position: left top;
     font-weight: normal;
@@ -353,25 +352,25 @@ color: #000;}
 	font-weight:bold;
 }
 .Rt-MENU a.LIST_page {
-	background: url(../Oimages/square_white.png);
+	background: url(../Images/square_white.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 	
 }
 .Rt-MENU ul ul a.LIST_page {
-	background-image: url(../Oimages/diamond.png);
+	background-image: url(../Images/diamond.png);
 	background-repeat: no-repeat;
 	padding-left: 25px;
 }
 .Rt-MENU a.trig_closed {
-	background-image: url(../Oimages/east.png);
+	background-image: url(../Images/east.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 }
 .Rt-MENU ul a.trig_open {
-	background-image: url(../Oimages/south.png);
+	background-image: url(../Images/south.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	color: #ffffff;
@@ -380,10 +379,10 @@ color: #000;}
 	text-decoration:underline;
 }
 .Rt-MENU ul ul a.trig_closed {
-	background-image: url(../Oimages/east.png);
+	background-image: url(../Images/east.png);
 }
 .Rt-MENU ul ul a.trig_open {
-	background-image: url(../Oimages/south.png);
+	background-image: url(../Images/south.png);
 	color: #FFF;
 }
 .Rt-MENU a.current_mark {
@@ -412,7 +411,7 @@ color: #000;}
 			width: 165px;
 			padding: 10px; 
 			overflow:hidden; 
-			background-image:url(../Oimages/cnt.png);
+			background-image:url(../Images/cnt.png);
 			margin-bottom: 3em;
 			/*  background-image: linear-gradient(top, rgb(0, 102, 204) 16%, rgb(51,102,153) 67%);
 			background-image: -o-linear-gradient(top, rgb(0, 102, 204) 16%, rgb(51,102,153) 67%);
@@ -518,7 +517,7 @@ border-radius: 0.5em;
 /*=BEGINS===================table style =========================*/
 #events {
 width: 100%;
-background: #ccf;
+background: #ffffff;
 border: 1px solid #666;
 border-radius: 0.3em;
 		-moz-border-radius: 0.3em;
@@ -561,7 +560,7 @@ border: 1px solid #666;
 		-webkit-border-radius: 0.3em;
 }
 #events tr:nth-child(even) {
-background: #9cf;
+background: #ffffff;
 }
 /*====================table style Ends=========================*/
 
@@ -635,7 +634,6 @@ border-left:#f2f2f2 solid 1px;
 	padding-top: 40px;
 	background-color: #ffffff;
 	padding-bottom: 20px;
-         border: 1px solid #E3E3E3;
 }
 
 		
@@ -643,15 +641,3 @@ border-left:#f2f2f2 solid 1px;
 	clear:both;
 	border-bottom: #999 solid 1px;
 		}
-
-#legalfooter11 {
-	text-align:center;
-	font-size: 10px;
-	color: #2f2f2f;
-	padding-top: 10px;
-	background-color: #ffffff;
-	padding-bottom: 50px;
-      
-}
-                         
-                
