@@ -90,7 +90,7 @@ body p
 #top-container {
 	height:33px;
 	overflow: hidden;
-	background-image:url(../Images/cducolor.JPG);
+	background-image:url(../Oimages/cducolor.JPG);
 	background-repeat:repeat-x;
 	}
 
@@ -237,7 +237,7 @@ float: left;
 bottom: 1em;
 padding: 185px 0px 6px 12px;
 width: 190px;
-background: url(../Images/logo.png) no-repeat scroll 10px 20px;
+background: url(../Oimages/logo.png) no-repeat scroll 10px 20px;
 background-repeat: no-repeat;
 border-left: #999 solid 1px;
 }
@@ -397,25 +397,25 @@ padding: 15px 0 5px 40px;
 	font-weight:bold;
 }
 .Rt-MENU a.LIST_page {
-	background: url(../Images/square_white.png);
+	background: url(../Oimages/square_white.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 	
 }
 .Rt-MENU ul ul a.LIST_page {
-	background-image: url(../Images/diamond.png);
+	background-image: url(../Oimages/diamond.png);
 	background-repeat: no-repeat;
 	padding-left: 25px;
 }
 .Rt-MENU a.trig_closed {
-	background-image: url(../Images/east.png);
+	background-image: url(../Oimages/east.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 }
 .Rt-MENU ul a.trig_open {
-	background-image: url(../Images/south.png);
+	background-image: url(../Oimages/south.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	color: #ffffff;
@@ -424,10 +424,10 @@ padding: 15px 0 5px 40px;
 	text-decoration:underline;
 }
 .Rt-MENU ul ul a.trig_closed {
-	background-image: url(../Images/east.png);
+	background-image: url(../Oimages/east.png);
 }
 .Rt-MENU ul ul a.trig_open {
-	background-image: url(../Images/south.png);
+	background-image: url(../Oimages/south.png);
 	color: #FFF;
 }
 .Rt-MENU a.current_mark {
@@ -455,7 +455,7 @@ padding: 15px 0 5px 40px;
 			width: 165px;
 			padding: 10px; 
 			overflow:hidden; 
-			background-image:url(../Images/cnt.png);
+			background-image:url(../Oimages/cnt.png);
 			margin-bottom: 3em;
 			/*  background-image: linear-gradient(top, rgb(0, 102, 204) 16%, rgb(51,102,153) 67%);
 			background-image: -o-linear-gradient(top, rgb(0, 102, 204) 16%, rgb(51,102,153) 67%);

@@ -13,7 +13,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 <link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="Oimages/favicon.ico" type="image/x-icon">
 <script type="text/javascript" src="./js/rt-menu.js"></script>
 <script type="text/javascript" src="./js/js_9dbc62f17dada3128baa71d7eb582ac9.js"></script>
 
@@ -48,7 +48,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 
 <div id="wrapper">
 <p></p>
-	<div id="header"> <a href="http://www.cdu.edu.au"><img src="Images/pcru-logo.png" alt="Parameterized Complexity Research Unit" title="Charles Darwin University Home"  border="0" usemap="#Map" />
+	<div id="header"> <a href="http://www.cdu.edu.au"><img src="Oimages/pcru-logo.png" alt="Parameterized Complexity Research Unit" title="Charles Darwin University Home"  border="0" usemap="#Map" />
         <map name="Map" id="Map">
           <area shape="rect" coords="215,4,396,59" href="" alt="Parameterized Complexity Research Unit Home" title="Parameterized Complexity Research Unit Home" target="_blank"  />
           <area shape="rect" coords="5,2,210,59" href="http://www.cdu.edu.au" alt="Charles Darwin University Home" target="_blank"  />
@@ -88,14 +88,14 @@ WWW
 <div class="clearer"></div> 
 <div id="contentwrapper">
     <div id="Content">
-        <p><img src="Images/redimages2.jpg" alt="Welcome to PCRU"  /> </p>
+        <p><img src="Oimages/redimages2.jpg" alt="Welcome to PCRU"  /> </p>
     <div id="banner" class="getleft loop-enabled">	
 	<div class="container">
 	<div class="slides">
 			
             
             <div class="slide">
-                <img class="imgbg" src="Images/banner1.jpg">
+				<img class="imgbg" src="Images/banner1.jpg">
 				
 				<div class="col-half">
 				<h3 class="bn-heading">Always Parameterize</h3>
@@ -107,7 +107,7 @@ WWW
 				</div>
             
              <div class="slide">
-				<img class="imgbg" src="Images/banner03.jpg">
+				<img class="imgbg" src="Oimages/banner03.jpg">
 				
 				<div class="col-half">
 				<h3 class="bn-heading">Dr. Peter Shaw </h3>
@@ -123,7 +123,7 @@ WWW
 				</div>
             
             <div class="slide">
-				<img class="imgbg" src="Images/banner01.jpg">
+				<img class="imgbg" src="Oimages/banner01.jpg">
 				
 				<div class="col-half">
 				<h3 class="bn-heading">Prof. Michael Fellows</h3>
@@ -139,7 +139,7 @@ WWW
 				</div>
 				
 	   <div class="slide">
-				<img class="imgbg" src="Images/banner02.jpg">
+				<img class="imgbg" src="Oimages/banner02.jpg">
 				
 				<div class="col-half">
 				<h3 class="bn-heading">Prof. Frances Rosamond</h3>
@@ -194,7 +194,7 @@ WWW
                     <h4>Parameterized Complexity - 2017</h4>
 		 
                     <p>Read the 
-                        <a href="http://fpt.wdfiles.com/local--files/welcome/Summary.pdf" target="_blank" >Quick Summary of Parameterized Complexity - 2017 </a></p>
+                        <a href="http://fpt.wdfiles.com/local--files/welcome/Summary.pdf" target="_blank" >Quick Summary of Parameterized Complexity - 2012 </a></p>
                     
                     <p>Read the 
                         <a href="http://fpt.wikidot.com/fpt-news:the-parameterized-complexity-newsletter" target="_blank" >Parameterized Complexity Newslater </a></p>
@@ -208,18 +208,14 @@ WWW
     
        <ul class="LIST">
       <li><a href="index.php">PCRU Home</a></li>
-      <li><a href="Candidates.php">Candidates</a></li>
-      <li><a href="Papers.php">Papers</a></li>
-      <li><a href="Grants.php">Grants</a></li>
-      <li><a href="Conferences.php">Proposed Conferences</a></li>
-      <li><a href="Partnerships.php">Partnerships</a></li>
-      <li><a href="Meetings.php">PCRU Meetings</a></li>
-      <li><a href="Discussions.php">Discussion Group</a></li>
-      <li><a href="Impdates.php">Important dates/travel</a></li>
-      <li><a href="Login.php">Login</a></li>
+      <li><a href="About.php">About PCRU</a></li>
       <li><a href="Contact.php">Contact Us</a></li>
-      
-      
+       <li><a href="Csu.php">Computer Science Unplugged</a></li>
+      <li><a href="Researchers.php">Researchers</a></li>
+      <li><a href="Allevents.php">News &amp; Events</a></li>
+      <li><a href="Researchers.php">Resources</a></li>
+      <li><a href="admin.php">Administrator</a></li>
+      <li><a href="Login.php">Login</a></li>
       </ul>
       
     <!--[if lte IE 6]>
@@ -239,7 +235,7 @@ WWW
 	<h3 class="tab-heading">Contact us</h3>
 	<div class="contactdetails">
       <span>PCRU<br />
-        <strong>Casuarina Campus:</strong> <br />
+        <strong>Casuarina campus:</strong> <br />
       T: +61 8 8946 6666<br />
       F: +61 8 8927 0612<br />
           Ellengowan Drive, Casuarina<br>
@@ -248,7 +244,11 @@ WWW
       E: <a href="mailto:pcru@cdu.edu.au">pcru@cdu.edu.au </a>
       
       </span><br /><br />
-     
+      <span><strong>Alice Springs campus:</strong><br /> 
+      T: +61 8 8946 6157<br />
+      F: +61 8 8946 6680
+      <br />
+      E: <a href="mailto:pcru@cdu.edu.au">pcru@cdu.edu.au</a></span>
 </div> 
 	
 <h4 class="facebook"><a href="http://www.facebook.com/pcru.cdu?skip_nax_wizard=true" target="_blank" >Like Us in Facebook </a></h4>

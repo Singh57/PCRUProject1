@@ -9,13 +9,13 @@ body{
 #top-container {
 	height:30px;
 	overflow: hidden;
-	background-image:url(../Images/Capture1.JPG);
+	background-image:url(../Oimages/cducolour.JPG);
 	background-repeat:repeat-x;
 	}
 	
 /* ============= utility bar ================= */
 #utility-bar {
-	color: #FFF;
+	color:#fff;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	width:956px;
@@ -84,14 +84,14 @@ a:hover{text-decoration:underline;}
 a img{border:0 none;}
 
 .facebook a{font-size: 14px;font-weight: bold;line-height: normal; color: #009;
-	background: url(../Images/fb.png);
+	background: url(../Oimages/fb.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding: 10px 0 10px 26px;
 	
 	}
 .twitter a{font-size: 14px;font-weight: bold;line-height: normal; color: #009;
-	background: url(../Images/twitter.png);
+	background: url(../Oimages/twitter.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding: 10px 0 10px 26px;}
@@ -140,7 +140,7 @@ float: left;
 bottom: 1em;
 padding: 185px 0px 6px 12px;
 width: 190px;
-background: url(../Images/logo.png) no-repeat scroll 10px 20px;
+background: url(../Oimages/logo.png) no-repeat scroll 10px 20px;
 background-repeat: no-repeat;
 border-left: #999 solid 1px;
 }
@@ -227,32 +227,32 @@ padding: 15px 0 5px 40px;
 color: #000;}
 
 #accordion div.peter {
-	background-image: url(../Images/peter_shaw.jpg) ;
+	background-image: url(../Oimages/peter_shaw.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 #accordion div.mike {
-	background-image: url(../Images/mike.jpg) ;
+	background-image: url(../Oimages/mike.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 #accordion div.fran {
-	background-image: url(../Images/fran.jpg) ;
+	background-image: url(../Oimages/fran.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 #accordion div.mahadi {
-	background-image: url(../Images/mahadi.jpg) ;
+	background-image: url(../Oimages/mahadi.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
 	}
 
 #accordion div.judy {
-	background-image: url(../Images/judy.jpg) ;
+	background-image: url(../Oimages/judy.jpg) ;
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
@@ -267,7 +267,7 @@ color: #000;}
 
 
 #accordion ul li {
-	background-image: url(../Images/diamond.png) ;
+	background-image: url(../Oimages/diamond.png) ;
 	background-repeat: no-repeat;
 	background-position: left top;
     font-weight: normal;
@@ -352,25 +352,25 @@ color: #000;}
 	font-weight:bold;
 }
 .Rt-MENU a.LIST_page {
-	background: url(../Images/square_white.png);
+	background: url(../Oimages/square_white.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 	
 }
 .Rt-MENU ul ul a.LIST_page {
-	background-image: url(../Images/diamond.png);
+	background-image: url(../Oimages/diamond.png);
 	background-repeat: no-repeat;
 	padding-left: 25px;
 }
 .Rt-MENU a.trig_closed {
-	background-image: url(../Images/east.png);
+	background-image: url(../Oimages/east.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 25px;
 }
 .Rt-MENU ul a.trig_open {
-	background-image: url(../Images/south.png);
+	background-image: url(../Oimages/south.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	color: #ffffff;
@@ -379,10 +379,10 @@ color: #000;}
 	text-decoration:underline;
 }
 .Rt-MENU ul ul a.trig_closed {
-	background-image: url(../Images/east.png);
+	background-image: url(../Oimages/east.png);
 }
 .Rt-MENU ul ul a.trig_open {
-	background-image: url(../Images/south.png);
+	background-image: url(../Oimages/south.png);
 	color: #FFF;
 }
 .Rt-MENU a.current_mark {
@@ -411,7 +411,7 @@ color: #000;}
 			width: 165px;
 			padding: 10px; 
 			overflow:hidden; 
-			background-image:url(../Images/cnt.png);
+			background-image:url(../Oimages/cnt.png);
 			margin-bottom: 3em;
 			/*  background-image: linear-gradient(top, rgb(0, 102, 204) 16%, rgb(51,102,153) 67%);
 			background-image: -o-linear-gradient(top, rgb(0, 102, 204) 16%, rgb(51,102,153) 67%);
