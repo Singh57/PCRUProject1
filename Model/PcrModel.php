@@ -1,133 +1,121 @@
 <?php
-
-require ("Entities/CoffeeEntity.php");
+require ("Entities/PcrEntity.php");
 
 //Contains database related code for the Coffee page.
-class CoffeeModel {
+class PcrModel {
 
-    //Get all coffee types from the database and return them in an array.
-    function GetCoffeeTypes() {
-        require ('Credentials.php');
-        //Open connection and Select database.   
-        mysql_connect($host, $user, $passwd) or die(mysql_error());
-        mysql_select_db($database);
-        $result = mysql_query("SELECT DISTINCT type FROM coffee") or die(mysql_error());
-        $types = array();
+    
+    
 
-        //Get data from database.
-        while ($row = mysql_fetch_array($result)) {
-            array_push($types, $row[0]);
-        }
-
-        //Close connection and return result.
-        mysql_close();
-        return $types;
-    }
-
-    //Get coffeeEntity objects from the database and return them in an array.
-    function GetCoffeeByType($type) {
-        require ('Credentials.php');
-        //Open connection and Select database.     
-        mysql_connect($host, $user, $passwd) or die(mysql_error);
-        mysql_select_db($database);
-
-        $query = "SELECT * FROM coffee WHERE type LIKE '$type'";
-        $result = mysql_query($query) or die(mysql_error());
-        $coffeeArray = array();
-
-        //Get data from database.
-        while ($row = mysql_fetch_array($result)) {
-            $id = $row[0];
-            $name = $row[1];
-            $type = $row[2];
-            $price = $row[3];
-            $roast = $row[4];
-            $country = $row[5];
-            $image = $row[6];
-            $review = $row[7];
-
-            //Create coffee objects and store them in an array.
-            $coffee = new CoffeeEntity($id, $name, $type, $price, $roast, $country, $image, $review);
-            array_push($coffeeArray, $coffee);
-        }
-        //Close connection and return result
-        mysql_close();
-        return $coffeeArray;
-    }
-
-    function GetCoffeeById($id) {
-        require ('Credentials.php');
-        //Open connection and Select database.     
-        mysql_connect($host, $user, $passwd) or die(mysql_error);
-        mysql_select_db($database);
-
-        $query = "SELECT * FROM coffee WHERE id = $id";
-        $result = mysql_query($query) or die(mysql_error());
-
-        //Get data from database.
-        while ($row = mysql_fetch_array($result)) {
-            $name = $row[1];
-            $type = $row[2];
-            $price = $row[3];
-            $roast = $row[4];
-            $country = $row[5];
-            $image = $row[6];
-            $review = $row[7];
-
-            //Create coffee
-            $coffee = new CoffeeEntity($id, $name, $type, $price, $roast, $country, $image, $review);
-        }
-        //Close connection and return result
-        mysql_close();
-        return $coffee;
-    }
-
-    function InsertCoffee(CoffeeEntity $coffee) {
-        $query = sprintf("INSERT INTO coffee
-                          (name, type, price,roast,country,image,review)
+    function InsertNewProjectData(PcrEntity $researchu) {
+         require ('Credentials.php'); 
+        $connect = mysqli_connect($hostname, $username, $password);
+         mysqli_select_db($connect, $databaseName);
+  
+        
+        $query = sprintf("INSERT INTO addnewproject
+                          (title, synopsis, description,`grant`,researchers,partners)
                           VALUES
-                          ('%s','%s','%s','%s','%s','%s','%s')",
-                mysql_real_escape_string($coffee->name),
-                mysql_real_escape_string($coffee->type),
-                mysql_real_escape_string($coffee->price),
-                mysql_real_escape_string($coffee->roast),
-                mysql_real_escape_string($coffee->country),
-                mysql_real_escape_string("Images/Coffee/" . $coffee->image),
-                mysql_real_escape_string($coffee->review));
-        $this->PerformQuery($query);
+                          ('%s','%s','%s','%s','%s','%s')",
+             mysqli_real_escape_string($connect,$researchu->title),
+                mysqli_real_escape_string($connect,$researchu->synopsis),
+                mysqli_real_escape_string($connect,$researchu->description),
+                mysqli_real_escape_string($connect,$researchu->grant),
+                mysqli_real_escape_string($connect,$researchu->researchers),
+                 mysqli_real_escape_string($connect,$researchu->partners));
+              $this->PerformQuery($query);
     }
 
-    function UpdateCoffee($id, CoffeeEntity $coffee) {
-        $query = sprintf("UPDATE coffee
-                            SET name = '%s', type = '%s', price = '%s', roast = '%s',
-                            country = '%s', image = '%s', review = '%s'
+    function UpdateNewProjectData($id, PcrEntity $researchu) {
+          require ('Credentials.php'); 
+        $connect = mysqli_connect($hostname, $username, $password);
+        mysqli_select_db($connect, $databaseName);
+        
+        $query = sprintf("UPDATE addnewproject
+                            SET title = '%s', synopsis = '%s', description = '%s', `grant` = '%s',
+                            researchers = '%s', partners = '%s'
                           WHERE id = $id",
-                mysql_real_escape_string($coffee->name),
-                mysql_real_escape_string($coffee->type),
-                mysql_real_escape_string($coffee->price),
-                mysql_real_escape_string($coffee->roast),
-                mysql_real_escape_string($coffee->country),
-                mysql_real_escape_string("Images/Coffee/" . $coffee->image),
-                mysql_real_escape_string($coffee->review));
-                          
+                mysqli_real_escape_string($connect,$researchu->title),
+                mysqli_real_escape_string($connect,$researchu->synopsis),
+                mysqli_real_escape_string($connect,$researchu->description),
+                mysqli_real_escape_string($connect,$researchu->grant),
+                mysqli_real_escape_string($connect,$researchu->researchers),
+                 mysqli_real_escape_string($connect,$researchu->partners));
+                     
         $this->PerformQuery($query);
     }
 
-    function DeleteCoffee($id) {
-        $query = "DELETE FROM coffee WHERE id = $id";
-        $this->PerformQuery($query);
-    }
-
-    function PerformQuery($query) {
+    
+    function GetResearchDataId($id) {
         require ('Credentials.php');
-        mysql_connect($host, $user, $passwd) or die(mysql_error());
-        mysql_select_db($database);
+        //Open connection and Select database.     
+       $connect = mysqli_connect($hostname, $username, $password);
+       mysqli_select_db($connect, $databaseName);
+        $query = "SELECT * FROM addnewproject WHERE id = $id";
+        $result = mysqli_query($connect,$query) or die(mysql_error());
 
-        //Execute query and close connection
-        mysql_query($query) or die(mysql_error());
-        mysql_close();
+        //Get data from database.
+        while ($row = mysqli_fetch_array($result)) {
+            $title = $row[1];
+            $synopsis = $row[2];
+            $description = $row[3];
+            $grant = $row[4];
+            $researchers = $row[5];
+            $partners = $row[6];
+          
+            //Create coffee
+            $researchu = new PcrEntity($id, $title, $synopsis, $description, $grant, $researchers, $partners);
+        }
+        //Close connection and return result
+        mysqli_close();
+        return $researchu;
     }
 
-}
+    
+    function DeletePcrData($id) {
+        $query = "DELETE FROM addnewproject WHERE id = $id";
+        $this->PerformQuery($query);
+    }
+    
+    
+    function GetPcrDataByType($type) {
+        require ('Credentials.php');
+        //Open connection and Select database.     
+       $connect = mysqli_connect($hostname, $username, $password);
+mysqli_select_db($connect, $databaseName);
 
+        $query = "SELECT * FROM addnnewproject WHERE title LIKE '$type'";
+        $result = mysqli_query($connect,$query) ;
+        $dataArray = array();
+
+        //Get data from database.
+        while ($row = mysqli_fetch_array($result)) {
+            $id = $row[0];
+            $title = $row[1];
+            $synopsis = $row[2];
+            $description = $row[3];
+            $grants = $row[4];
+            $researchers = $row[5];
+            $partners = $row[6];
+           
+            //Create coffee objects and store them in an array.
+            $coffee = new CoffeeEntity($id, $title, $synopsis, $description, $grants, $researchers, $partners);
+            array_push($dataArray, $coffee);
+        }
+        //Close connection and return result
+        mysqli_close($connect);
+        return $dataArray;
+    }
+
+       function PerformQuery($query) {
+        require ('Credentials.php');
+        
+      $connect = mysqli_connect($hostname, $username, $password);
+       mysqli_select_db($connect, $databaseName);
+        //Execute query and close connection
+        mysqli_query($connect, $query);
+     mysqli_close($connect);
+    }
+    
+}
 ?>

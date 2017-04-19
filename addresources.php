@@ -1,34 +1,42 @@
-<?php
+<script src="js/rt-menu.js" type="text/javascript"></script>
+<script src="js/js_9dbc62f17dada3128baa71d7eb582ac9.js" type="text/javascript"></script>
 
-$title = "AddResources";
+<ul id="accordion">
+    <?php
+    include './Model/Credentials.php ';
+   $connect = mysqli_connect($hostname, $username, $password);
+   mysqli_select_db($connect, $databaseName);
 
-$content = "<form action='' method='post'>
-    <fieldset>
-    
-        <legend><h3>Add a New Resource</h3></legend><br/>
-        <label for='name'>Name: </label>
-        <input type='text' class='inputField' name='txtName' /><br/><br/>
+        $query = "SELECT * FROM addnewproject";
+        $result = mysqli_query($connect,$query) ;
+        $dataArray = array();
 
-        <label for='price'>Type: </label>
-        <input type='text' class='inputField' name='txtPrice' /><br/><br/>
+        //Get data from database.
+        while ($row = mysqli_fetch_array($result)) {
+        ?>
+    <li><div class="mike"><?php echo $row['title']?></div>
+		<ul> 
+	  	 <h1><?php echo $row['description']?></h1>
+                 <h1><?php echo $row['grant']?></h1>
+                 <h1><?php echo $row['synopsis']?></h1>
+                </ul>
+    </li>
+        <?php }
+        
+        
+        ?>
+</ul>
 
-        <label for='roast'>Author: </label>
-        <input type='text' class='inputField' name='txtRoast' /><br/><br/>
+<script type="text/javascript">
+     $('#accordion ul').slideUp();
+$("#accordion > li > div").click(function(){
+ 
+    if(false == $(this).next().is(':visible')) {
+        $('#accordion ul').slideUp(300);
+    }
+    $(this).next().slideToggle(300);
+});
+ 
 
-        <label for='country'>Last Updated:</label>
-        <input type='text' class='inputField' name='txtCountry' /><br/><br/>
+</script>
 
-        <label for='review'>Review: </label>
-        <input type='text' class='inputField' name='txtCountry' /><br/><br/>
-
-        <input type='submit' value='Submit'><br/><br/>
-    </fieldset>
-</form>";
-
-if(isset($_POST["txtName"]))
-{
-    $pcrController->InsertEvent();
-}
-
-include './Template.php';
-?>

@@ -5,51 +5,58 @@ $content = '<h3>Candidates List</h3>
      
 <br/>
 
-<li><a href="Partnerships.php">Current Phd Candidates</a></li>
+<li><a>Staff Members</a></li>
 
 <ul>
-<li><a href="Partnerships.php">Adam Maheswar </a></li>
+<li><a href="http://scholar.google.com.au/citations?user=M27e9HgAAAAJ&hl=en">Dr. Peter Shaw </a></li>
 <br/>
-<li><a href="Partnerships.php">John Dhiere </a></li>
+<li><a href="http://scholar.google.com.au/citations?user=rLCC8mQAAAAJ&hl=en">Prof. Michael Fellows</a></li>
+<br/>
+<li><a href="http://scholar.google.com.au/citations?user=Eq6nsy4AAAAJ&hl=en">Dr. Judith Egan </a></li>
+<br/>
+<li><a href="http://scholar.google.com.au/citations?user=M53v-sUAAAAJ&hl=en">Prof. Faisal Abu-Khzam</a></li>
 <br/>
 </ul>
 
-<li><a href="Partnerships.php">Non PCRU Phd Candidates</a></li>
+
+<li><a href="Candidates.php">Current Phd Candidates</a></li>
 
 <ul>
-<li><a href="Partnerships.php">Hine Bedi</a></li>
+<li><a href="Candidates.php">Kai Wang </a></li>
 <br/>
-<li><a href="Partnerships.php">Bob wither </a></li>
+<li><a href="Candidates.php">Nora Thompson </a></li>
 <br/>
 </ul>
 
-<li><a href="Partnerships.php">Staff Members</a></li>
+<li><a href="Candidates.php">Non PCRU Phd Candidates</a></li>
 
 <ul>
-<li><a href="Partnerships.php">Prof. Peter Shaw </a></li>
+<li><a href="Candidates.php">Ali Baydoun </a></li>
 <br/>
-<li><a href="Partnerships.php">Prof. Frances Rosamond </a></li>
-<br/>
-<li><a href="Partnerships.php">Prof.Michael Fellows</a></li>
-<br/>
-
-</ul>
-
-<li><a href="Partnerships.php">Visitors</a></li>
-
-<ul>
-<li><a href="Partnerships.php">Julia Roberts </a></li>
-<br/>
-<li><a href="Partnerships.php">Rese Fransis </a></li>
+<li><a href="Candidates.php">Sriratanaviriyakul</a></li>
 <br/>
 </ul>
 
-<li><a href="Partnerships.php">Key Collaborators</a></li>
+</ul>
+
+<li><a href="Candidates.php">Visitors</a></li>
 
 <ul>
-<li><a href="Partnerships.php">University Manager</a></li>
+<li><a href="Candidates.php">Ji Kang</a></li>
+<br/>
+<li><a href="Candidates.php">He Liu</a></li>
+<br/>
+</ul>
+
+<li><a href="Candidates.php">Key Collaborators</a></li>
+
+<ul>
+<li><a href="Candidates.php">Dr. Robin Marsh</a></li>
+<br/>
+<li><a href="Candidates.php">Dr. Simon Moss</a></li>
 <br/>
 
+<ul\>
 
 
 ';

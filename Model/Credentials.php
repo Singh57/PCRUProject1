@@ -1,8 +1,13 @@
 <?php
 
-//Login data for the database. Use this file in all Models
-$host = "localhost";
-$user = "root";
-$passwd = "";
-$database = "coffeedb";
+$hostname = "localhost";
+
+$username = "root";
+
+$password = "";
+
+// your database name
+$databaseName = "pcrudb";
+
+
 ?>
