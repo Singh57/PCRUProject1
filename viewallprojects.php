@@ -1,11 +1,7 @@
   
-<?php 
-include './header.php';
+<?php
+     include './header.php';
 ?>
-
-<script src="js/rt-menu.js" type="text/javascript"></script>
-<script src="js/js_9dbc62f17dada3128baa71d7eb582ac9.js" type="text/javascript"></script>
-
 <ul id="accordion">
     <?php
     
@@ -14,19 +10,28 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-        $query = "SELECT * FROM addnewproject";
+        $query = "SELECT * FROM addproject";
         $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
-        //Get data from database.
+        //Get data from database
+        //<h3>Add New Candidate</h3>.
         while ($row = mysqli_fetch_array($result)) {
         ?>
-    <li><div class="mahadi" ><?php echo $row['title']?></div>
+    <li><div class="mahadi" >Project Title :<?php echo $row['title']?></div>
 		<ul> 
-	  	 <h1 > <a href="<?php echo $row['researchers']?>"><?php echo $row['description']?></a></h1>
-                 <h1><?php echo $row['grant']?></h1>
-                 <h1><?php echo $row['synopsis']?></h1>
-                </ul>
+                    
+	  	 <h4>Description :<a href="<?php echo $row['partners']?>"><?php echo $row['description']?></a></h4>
+                 <h4>Grants : <a href="<?php echo $row['http://localhost/PmatPcruProject/index.php']?>"><?php echo $row['grants']?></a></h4>
+                 <h4>Synopsis :<?php echo $row['synopsis']?></h4>
+                 <h4>Researchers :<?php echo $row['researchers']?></h4>
+                 <h4>Partners :<?php echo $row['partners']?></h4>
+                 <h4>Purpose :<?php echo $row['purpose']?></h4>
+                 <h4>Conferences :<?php echo $row['conferences']?></h4>
+                <h4>Patents Link :<a href="<?php echo $row['patents']?>"><?php echo $row['patents']?></a></h4>
+                 <h4>Softwares :<?php echo $row['softwares']?></h4>
+                <h4>Website Link :<a href="<?php echo $row['websites']?>"><?php echo $row['websites']?></a></h4>
+                 </ul>
     </li>
         <?php }
         
@@ -48,6 +53,8 @@ $("#accordion > li > div").click(function(){
 </script>
 
 
-         <?php 
+    <?php 
+
+    
      include './footer.php';
 ?>

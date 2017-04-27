@@ -1,43 +1,26 @@
-    
-            </div>
-
 <div class="clearer"></div>
-
+<div class="clearer1">
 	<h4> Flash News Updates for PCRU!</h4>
-        <p> <a href = "award.html"><h5>ETH-Zurich Award for Computer Science Education. (Together with Tim Bell and Ian Witten, from NEW ZEALAND, for the Computer Science Unplugged! Project)</h5></a></p>
-		<div class = "news-col1"> <h4>Latest News From Twitter</h4>
-		<div id ="tweet"> </div> 
-		</div>
         
-		<div class ="news-col2">
-                    <h4>Parameterized Complexity</h4>
-		 
-                    <p>Read the 
-                        <a href="http://fpt.wdfiles.com/local--files/welcome/Summary.pdf" target="_blank" >Quick Summary of Parameterized Complexity </a></p>
-                    
-                    <p>Read the 
-                        <a href="http://fpt.wikidot.com/fpt-news:the-parameterized-complexity-newsletter" target="_blank" >Parameterized Complexity Newslater </a></p>
-		</div>
-
-	
+       <p> <a href="http://fpt.wikidot.com/" target="_blank" ><h5> * All about Parameterized Complexity</h5></a></p>
+	<p> <a href="http://fpt.wikidot.com/fpt-news:the-parameterized-complexity-newsletter" target="_blank" ><h5> * Parameterized Complexity Newsletter</h5></a></p>		
+		
+	</div>
 </div><!-- div content-- -->
 	
 <div id="right-col">
 <div id="menu" class="Rt-MENU">
     
        <ul class="LIST">
-      <li><a href="index.php">PCRU Home</a></li>
-      <li><a href="Candidates.php">Candidates</a></li>
-      <li><a href="Papers.php">Papers</a></li>
-      <li><a href="Grants.php">Grants</a></li>
-      <li><a href="Conferences.php">Proposed Conferences</a></li>
-      <li><a href="Partnerships.php">Partnerships</a></li>
-      <li><a href="Meetings.php">PCRU Meetings</a></li>
-      <li><a href="Discussions.php">Discussion Group</a></li>
-      <li><a href="Impdates.php">Important dates/travel</a></li>
-      <li><a href="Login.php">Login</a></li>
+      <li id="homelink" ><a href="index.php">PCRU Home</a></li>
+       <li><a href="viewallresearchers.php">Researchers</a></li>
+     <li><a href="viewallpapers.php">Papers</a></li>
+      <li><a href="viewallmeetings.php">PCRU Meetings</a></li>
+      <li><a href="viewallprojects.php">Projects</a></li>
+      <li><a href="viewallcandidates.php">Candidates</a></li>
+      <li><a href="addnewdetails.php">Add New Details</a></li>
       <li><a href="Contact.php">Contact Us</a></li>
-      
+       <li><a href="login.php">Login Page </a></li>
       
       </ul>
       
@@ -57,13 +40,10 @@
 <div class="contact">
 	<h3 class="tab-heading">Contact us</h3>
 	<div class="contactdetails">
-      <span>PCRU<br />
+        <span>PCRU<br />
         <strong>Casuarina Campus:</strong> <br />
       T: +61 8 8946 6666<br />
       F: +61 8 8927 0612<br />
-          Ellengowan Drive, Casuarina<br>
-              Postal address: CDU,<br>
-                  Darwin NT 0909   <br>
       E: <a href="mailto:pcru@cdu.edu.au">pcru@cdu.edu.au </a>
       
       </span><br /><br />
@@ -73,14 +53,6 @@
 <h4 class="facebook"><a href="http://www.facebook.com/pcru.cdu?skip_nax_wizard=true" target="_blank" >Like Us in Facebook </a></h4>
 <h4 class="twitter"><a href="http://www.twitter.com/PCRU_CDU" target="_blank" >Follow us in Twitter</a></h4>
 
-<div id ="webhits">
-Our valued visitors till date
-<script type="text/javascript">
-cid = "162777";
-</script>
-<script type="text/javascript" 
-src="http://www.ezwebsitecounter.com/c.js?id=162777"></script>
-</div>
 
 </div>
 </div>    
@@ -155,13 +127,7 @@ src="http://www.ezwebsitecounter.com/c.js?id=162777"></script>
 
 <div id="legalfooter"><a href="http://www.cdu.edu.au/copyright/">Copyright and Disclaimer</a> | Last Updated: April 5, 2017<br />
     ABN 54 093 513 649 | CRICOS Provider No: 00300K(NT) | CRICOS Provider No: 03286A (NSW) | RTO Provider No: 0373 <br/>
-    <h4 class="facebook"><a href="https://www.facebook.com/CharlesDarwinUniversity" target="_blank" >Facebook </a></h4>
-<h4 class="twitter"><a href="https://twitter.com/CDUni" target="_blank" >Twitter</a></h4>
-
-    
 </div>
-
-
 
 </div> <!-- div contentwrapper -- -->
 </div> <!-- div wrapper -- -->
