@@ -21,14 +21,14 @@ $content = "
         <legend><h3>Add a New Project</h3></legend><br/>
        
 <label for='name' >: </label><br/>
-       <label for='name' >Titles: </label><br/>
+       <label for='name' >Title: </label><br/>
         <input type='text'  class='inputField' name='txtTitle' value='$researchu->title'/><br/><br/>
 
        <label for='country'>Grants: </label>
         <input type='text' class='inputField' name='txtGrant' value='$researchu->grant'/><br/><br/>
 
        <label for='price'>Synopsis: </label>
-           <textarea cols='30' rows='3' name='txtSynopsis'></textarea>$researchu->synopsis</br><br/>
+        <textarea cols='30' rows='3' name='txtSynopsis'></textarea>$researchu->synopsis</br><br/>
 
 
         <label for='roast'>Description: </label>
@@ -41,6 +41,7 @@ $content = "
       
            <label for='review'>Partners: </label>
            <textarea cols='30' rows='3' name='txtPartners'>$researchu->partners</textarea></br><br/>
+         
 </div>
 
 <input type='submit' value='Submit'><br/><br/>
@@ -66,19 +67,37 @@ else{
         <input type='text' style='float:right; margin-right:170px; min-width:265px;' class='inputField' name='txtGrant' /><br/><br/>
 
         <label for='price'>Synopsis:</label>
-           <textarea class='fortextarea' cols='30' rows='3' name='txtSynopsis'></textarea></br><br/></br>
+           <textarea class='fortextarea' cols='30' rows='3' name='txtSynopsis'></textarea></br><br/></br></br>
 
 
         <label for='roast'>Description:</label>
-         <textarea class='fortextarea' cols='30'  rows='3' name='txtDescription'></textarea></br><br/></br>
+         <textarea class='fortextarea' cols='30'  rows='3' name='txtDescription'></textarea></br><br/></br></br>
 
       
         <label for='review'>Researchers: </label>
-        <textarea class='fortextarea' cols='30' rows='3' name='txtResearchers'></textarea></br><br/></br>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtResearchers'></textarea></br><br/></br></br>
 
            <label for='review'>Partners: </label>
            <textarea  class='fortextarea' cols='30' rows='3' name='txtPartners'></textarea></br><br/></br><br/>
 
+        <label for='review'>Purpose: </label>
+        <textarea  class='fortextarea' cols='30' rows='3' name='txtPurpose'></textarea></br><br/></br><br/>
+
+
+          <label for='review'>Conferences: </label>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtConferences'></textarea></br><br/></br><br/>
+
+
+          <label for='review'>Patents Link: </label>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtPatents'></textarea></br><br/></br><br/>
+
+
+          <label for='review'>Softwares: </label>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtSoftwares'></textarea></br><br/></br><br/>
+
+
+          <label for='review'>Website Link: </label>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtWebsites'></textarea></br><br/></br><br/>
 
 
 <input style='float:right; margin-right:300px; background: white;  color : #990000;'  

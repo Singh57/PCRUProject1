@@ -39,15 +39,13 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
-
 
 /* ============ header ================= */
 
 #header{
-	height:61px; /*height of banner.jpg */
+	height:106px; /*height of banner.jpg */
 	float:left;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -97,7 +95,9 @@ a img{border:0 none;}
 	padding: 10px 0 10px 26px;}
 
 #Contentwrapper{
-padding-right: 5px;}
+padding-right: 5px;
+
+}
 
 #Content{
 	width: 715px; 
@@ -108,7 +108,7 @@ padding-right: 5px;}
 	padding-right: 15px;
 	padding-bottom: 4px;
 	padding-left: 15px;
-	
+       	
 }
 
 #Content p a{
@@ -120,6 +120,7 @@ padding-right: 5px;}
 	text-decoration: underline;
 	
 }
+
 .news-col1, .news-col2 , .eventsbox{width: 315px; min-height: 180px;
 	border: #999 solid 1px;
 	margin-left:15px;
@@ -129,8 +130,8 @@ padding-right: 5px;}
 	overflow:auto;
 	float: left;
 	border-radius: 5px; 
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .news-col1 a, .news-col2 a{text-decoration:underline; color: #900}
@@ -196,6 +197,7 @@ padding: 15px 0 5px 40px;
 #accordion div {
     display: block;
     background-color: #369;
+    color: white ;
     font-weight: bold;
     margin: 1px;
     cursor: pointer;
@@ -215,7 +217,7 @@ padding: 15px 0 5px 40px;
 	color:#fff;
 	font-size:1em;
 	font-weight:bold;
-	border:1px solid #ccc;
+	border:2px solid #ccc;
 	margin-left: 4em;
 	padding: 1em;
 	border-radius: 0.3em;
@@ -249,6 +251,7 @@ color: #000;}
 	background-repeat: no-repeat;
 	background-position: 20px center;
 	padding-left: 50px;
+        
 	}
 
 #accordion div.judy {
@@ -262,20 +265,11 @@ color: #000;}
 #accordion ul {
     list-style: none;
 	margin: 0 auto;
-    padding:1em; 
+         padding:1em; 
 	display: none;
-	background-color: #FFFFFF;
+	background-color: #E9E6DB  ;
 }
 
-
-#accordion ul li {
-	background-image: url(../Images/diamond.png) ;
-	background-repeat: no-repeat;
-	background-position: left top;
-    font-weight: normal;
-    cursor: auto;
-    padding: 0 0 0 25px;
-}
 #accordion a {
     text-decoration: none;
 }
@@ -290,10 +284,11 @@ color: #000;}
 	font-family: Arial, Helvetica, sans-serif;
 	zoom: 1;
 	padding: 0px;
-	background-color: #369;
-	border:1px solid #969696;
+	background-color: #211545;
+	border:2px solid #969696;
 	margin-top:10px;
 	margin-right:5px;
+        color: #900;
 }
 .Rt-MENU div {
 	zoom: 1;
@@ -622,7 +617,7 @@ border-left:#f2f2f2 solid 1px;
 	border-right: 1px groove #ffffff;
 	height: 200px;}
 #col5 {
-	width: 170px;
+	width: 160px;
 	float: left;
 	font-size: 9px;
 	padding-left: 20px;
@@ -641,13 +636,80 @@ border-left:#f2f2f2 solid 1px;
 .clearer{
 	clear:both;
 	border-bottom: #999 solid 1px;
+         margin-bottom:1px;
 		}
 
+                .clearer1{
+	clear:both;
+	border-bottom: #999 solid 1px;
+         margin-bottom:1px;
+         
+          
+		}
+                
   .fortextarea {
-        margin-right:170px;
-        
+        margin-right:170px;      
         float:right;
-        
-      
-  
   }
+  
+  #homelink {
+      font-size: inherit;	
+	color: #2f2f2f;
+	background-color: #211545;
+  }
+  
+  #accordion1 {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+	
+}
+#accordion1 div {
+    display: block;
+    background-color: #369;
+    color: white ;
+    font-weight: bold;
+    margin: 1px;
+    cursor: pointer;
+    padding: 1em;
+    list-style: circle;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	vertical-align: top;
+}
+.link {
+	background: linear-gradient(top, #F0F0F0 0, #5B5B5B 100%);
+	background: -moz-linear-gradient(top, #F0F0F0 0, #5B5B5B 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #5B5B5B));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#5B5B5B', GradientType=0);
+	display:inline-block;
+	color:#fff;
+	font-size:1em;
+	font-weight:bold;
+	border:2px solid #ccc;
+	margin-left: 4em;
+	padding: 1em;
+	border-radius: 0.3em;
+		-moz-border-radius: 0.3em;
+		-khtml-border-radius: 0.3em;
+		-webkit-border-radius: 0.3em;
+}
+#accordion1>  a:active{
+color: #000;}
+
+
+#accordion1 div.mahadi1 {
+	background-image: url(../Images/diamond.png) ;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	padding-left: 50px;
+        
+	}
+
+#accordion1 a {
+    text-decoration: none;
+}
+#accordion1 a:hover {
+    text-decoration: underline;
+}

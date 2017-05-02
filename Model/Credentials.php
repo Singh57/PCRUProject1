@@ -7,7 +7,7 @@ $username = "root";
 $password = "";
 
 // your database name
-$databaseName = "pcrudb";
+$databaseName = "pmatprojectdb";
 
 
 ?>

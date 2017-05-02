@@ -24,7 +24,12 @@
       
       </ul>
       
-
+    <!--[if lte IE 6]>
+<style>.Rt-MENU .LIST, .Rt-MENU a, .Rt-MENU li {height:1%;}</style>
+<![endif]-->
+    <!--[if IE 5]>
+<style>.Rt-MENU a, .Rt-MENU a {overflow: visible !important;}</style>
+<![endif]-->
 	<script type="text/javascript">
 	<!--
 	PCRUop('menu',1,0,0,3,1,1,0,1,-1,150);
