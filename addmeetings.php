@@ -62,11 +62,11 @@ else{
         
 
 <label  for='name'>Title :  </label>
- <input type='text' style='float:right; margin-right:160px; min-width:265px; ' class='inputField' name='txtName' /><br/><br/><br/>
+ <input type='text' style='float:right; margin-right:120px; min-width:265px; ' class='inputField' name='txtName' /><br/><br/><br/>
 
  
 <label for='country'>Type : </label>
-       <select style='float:right; margin-right:160px; min-width:265px; ' name='txtType'>
+       <select style='float:right; margin-right:120px; min-width:265px; ' name='txtType'>
   <option value='Select' >Select</option>}
   <option value='Conference'>Conference</option>
    <option value='Sessions'>Sessions</option>
@@ -78,7 +78,7 @@ else{
    
 
         <label for='price'>Discussion Group:</label>
-          <select style='float:right; margin-right:160px; min-width:265px; ' name='txteducation'>
+          <select style='float:right; margin-right:120px; min-width:265px; ' name='txteducation'>
   <option value='Select' >Select</option>}
   <option value='Phd discussion group'>Phd discussion group</option>
    <option value='Community enagagement activity'>Community enagagement activity</option>
@@ -89,7 +89,7 @@ else{
    
 
         <label for='roast'>Partners:</label>
-             <select style='float:right; margin-right:160px; min-width:265px; ' name='txtemailid'>
+             <select style='float:right; margin-right:120px; min-width:265px; ' name='txtemailid'>
   <option value='Select' >Select</option>}
   <option value='University Partners'>University Partners</option>
    <option value='Other Industry Partners'>Other Industry Partners</option>
@@ -100,10 +100,10 @@ else{
    
       
         <label for='review'>Date: </label>
-        <textarea style='float:right;margin-right:160px;' cols='30' rows='2' name='txtprojects'></textarea></br><br/></br>
+        <textarea style='float:right;margin-right:120px;' cols='30' rows='2' name='txtprojects'></textarea></br><br/></br>
 
            <label for='review'>Place: </label>
-           <textarea  style='float:right;margin-right:160px;' cols='30' rows='2' name='txtpapers'></textarea></br><br/></br><br/>
+           <textarea  style='float:right;margin-right:120px;' cols='30' rows='2' name='txtpapers'></textarea></br><br/></br><br/>
 
 
 <input style='float:right; margin-right:300px; background: white;  color : #990000;'  

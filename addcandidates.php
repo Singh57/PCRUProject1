@@ -20,7 +20,7 @@ $content = "
 <form action='' method='post'>
     <fieldset>
     
-        <legend><h3>Add New Candidate</h3></legend><br/>
+        <legend><h3>Add New Member</h3></legend><br/>
        
 <label for='name' >: </label><br/>
        <label for='name' >Name: </label><br/>
@@ -56,16 +56,16 @@ else{
    $content = "<form action='' method='post'>
     <fieldset>
     
-        <legend><h3>Add New Candidate</h3></legend><br/>
+        <legend><h3>Add New Member</h3></legend><br/>
         
 
         
 
-<label  for='name' >Author Name :  </label>
+<label  for='name' >Name :  </label>
         <input type='text' style='float:right; margin-right:160px; min-width:265px; ' class='inputField' name='txtName' /><br/><br/><br/>
 
  
-<label for='country'>Author Type: </label>
+<label for='country'>Type: </label>
        <select style='float:right; margin-right:160px; min-width:265px; ' name='txtType'>
   <option value='Select' >Select</option>}
   <option value='Current Phd Candidates'>Current Phd Candidates</option>
@@ -77,7 +77,7 @@ else{
 
    
 
-        <label for='price'>Education:</label>
+        <label for='price'>Position:</label>
       <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txteducation' /><br/><br/><br/>
 
 
@@ -88,7 +88,7 @@ else{
         <label for='review'>Projects: </label>
         <textarea style='float:right;margin-right:160px;' cols='30' rows='2' name='txtprojects'></textarea></br><br/></br>
 
-           <label for='review'>Paper's Link: </label>
+           <label for='review'>Link: </label>
            <textarea  style='float:right;margin-right:160px;' cols='30' rows='2' name='txtpapers'></textarea></br><br/></br><br/>
 
 
