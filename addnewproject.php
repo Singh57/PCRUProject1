@@ -58,8 +58,6 @@ else{
         <legend><h3>Add New Project</h3></legend><br/>
         
 
-        
-
 <label  for='name' >Titles :  </label>
         <input type='text' style='float:right; margin-right:170px; min-width:265px; ' class='inputField' name='txtTitle' /><br/><br/>
 
@@ -80,7 +78,9 @@ else{
            <label for='review'>Partners: </label>
            <textarea  class='fortextarea' cols='30' rows='3' name='txtPartners'></textarea></br><br/></br><br/>
 
-        <label for='review'>Purpose: </label>
+          <legend><h3>Output</h3></legend><br/>
+  
+        <label for='review'>Grant: </label>
         <textarea  class='fortextarea' cols='30' rows='3' name='txtPurpose'></textarea></br><br/></br><br/>
 
 
@@ -88,11 +88,11 @@ else{
         <textarea class='fortextarea' cols='30' rows='3' name='txtConferences'></textarea></br><br/></br><br/>
 
 
-          <label for='review'>Patents Link: </label>
+          <label for='review'>Patent: </label>
         <textarea class='fortextarea' cols='30' rows='3' name='txtPatents'></textarea></br><br/></br><br/>
 
 
-          <label for='review'>Softwares: </label>
+          <label for='review'>Software: </label>
         <textarea class='fortextarea' cols='30' rows='3' name='txtSoftwares'></textarea></br><br/></br><br/>
 
 

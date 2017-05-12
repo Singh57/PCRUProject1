@@ -60,30 +60,30 @@ else{
         
 
        <label  for='name' >Title :  </label>
-        <input type='text' style='float:right; margin-right:160px; min-width:265px; ' class='inputField' name='txtTitle' /><br/><br/><br/>
+        <input type='text' style='float:right; margin-right:130px; min-width:265px; ' class='inputField' name='txtTitle' /><br/><br/><br/>
 
  
 <label for='country'>Authors: </label>
-      <textarea style='float:right;margin-right:160px;' cols='30' rows='2' name='txtAuthors'></textarea></br><br/></br>
+      <textarea style='float:right;margin-right:130px;' cols='30' rows='2' name='txtAuthors'></textarea></br><br/></br>
 
-        <label for='price'>Complete/Issues:</label>
-      <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txtIssues' /><br/><br/><br/>
+        <label for='price'>Description :</label>
+      <input type='text' style='float:right; margin-right:130px; min-width:265px;' class='inputField' name='txtIssues' /><br/><br/><br/>
 
 
-        <label for='roast'>Token :</label>
-        <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txtToken' /><br/><br/><br/>
+        <label for='roast'>Citation :</label>
+        <input type='text' style='float:right; margin-right:130px; min-width:265px;' class='inputField' name='txtToken' /><br/><br/><br/>
 
-      <label for='roast'>Publishing :</label>
-        <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txtPublishing' /><br/><br/><br/>
+      <label for='roast'>Publisher :</label>
+        <input type='text' style='float:right; margin-right:130px; min-width:265px;' class='inputField' name='txtPublishing' /><br/><br/><br/>
 
-<label for='roast'>Links :</label>
-        <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txtLinks' /><br/><br/><br/>
+<label for='roast'>Link :</label>
+        <input type='text' style='float:right; margin-right:130px; min-width:265px;' class='inputField' name='txtLinks' /><br/><br/><br/>
 
- <label for='review'>Date: </label>
-         <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txtDate' /><br/><br/><br/>
+ <label for='review'>Publication Date: </label>
+         <input type='text' style='float:right; margin-right:130px; min-width:265px;' class='inputField' name='txtDate' /><br/><br/><br/>
 
            <label for='review'>Status: </label>
-             <select style='float:right; margin-right:160px; min-width:265px; ' name='txtStatus'>
+             <select style='float:right; margin-right:130px; min-width:265px; ' name='txtStatus'>
   <option value='Select' >Select</option>}
   <option value='Almost Submitted'>Almost Submitted</option>
    <option value='Current Papers'>Current Papers</option>
