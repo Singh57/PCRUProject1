@@ -2,6 +2,8 @@
 <?php
      include './header.php';
 ?>
+<legend><h3>Details of Projects</h3></legend>
+
 <ul id="accordion">
     <?php
     
@@ -10,7 +12,7 @@
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-        $query = "SELECT * FROM addproject";
+        $query = "SELECT * FROM addproject ORDER BY title ";
         $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
@@ -26,10 +28,11 @@
                  <h4>Synopsis :<?php echo $row['synopsis']?></h4>
                  <h4>Researchers :<?php echo $row['researchers']?></h4>
                  <h4>Partners :<?php echo $row['partners']?></h4>
-                 <h4>Purpose :<?php echo $row['purpose']?></h4>
+                     <legend><h3>Output</h3></legend><br/>
+                 <h4>Grant :<?php echo $row['purpose']?></h4>
                  <h4>Conferences :<?php echo $row['conferences']?></h4>
-                <h4>Patents Link :<a href="<?php echo $row['patents']?>"><?php echo $row['patents']?></a></h4>
-                 <h4>Softwares :<?php echo $row['softwares']?></h4>
+                <h4>Patent :<a href="<?php echo $row['patents']?>"><?php echo $row['patents']?></a></h4>
+                 <h4>Software :<?php echo $row['softwares']?></h4>
                 <h4>Website Link :<a href="<?php echo $row['websites']?>"><?php echo $row['websites']?></a></h4>
                  </ul>
     </li>

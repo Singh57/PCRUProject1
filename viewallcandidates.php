@@ -3,7 +3,7 @@
 include './header.php';
 ?>
 
-
+<legend><h3>List of All Members</h3></legend>
 
 <ul id="accordion">
 <li><div class="mahadi" >Current Phd Candidates </div>
@@ -17,7 +17,7 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-     $query = "SELECT * FROM addcandidates Where type ='Current Phd Candidates'";
+     $query = "SELECT * FROM addcandidates Where type ='Current Phd Candidates' ORDER BY name";
      $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
@@ -27,11 +27,10 @@ include './header.php';
     <li><div class="mahadi1" ><?php echo $row['name']?></div>
 		<ul> 
                     
-	  	 <h4>Author Type :<a href="http://scholar.google.com.au/citations?user=M27e9HgAAAAJ&hl=en"><?php echo $row['type']?></a></h4>
-                 <h4>Education : <?php echo $row['education']?></h4>
+	  	 <h4>Position : <?php echo $row['education']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
-             <h4>Paper-Link :<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+             <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                          </ul>
     </li>
         <?php }
@@ -53,7 +52,7 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-     $query = "SELECT * FROM addcandidates Where type ='Staff Members'";
+     $query = "SELECT * FROM addcandidates Where type ='Staff Members' ORDER BY name ";
      $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
@@ -63,12 +62,11 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-                    <h4>Author Type :<a target="_blank" href="<?php echo $row['www.google.com']?>"><?php echo $row['type']?></a></h4>
-                 <h4>Education : <?php echo $row['education']?></h4>
+                 <h4>Position : <?php echo $row['education']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
-                 <h4>Papers :<?php echo $row['papers']?></h4>
-                </ul>
+           <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+                  </ul>
     </li>
         <?php }
         
@@ -89,7 +87,7 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-     $query = "SELECT * FROM addcandidates Where type ='Visitors'";
+     $query = "SELECT * FROM addcandidates Where type ='Visitors' ORDER BY name ";
      $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
@@ -99,12 +97,11 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	  	 <h4>Author Type :<a href="<?php echo $row['www.google.com']?>"><?php echo $row['type']?></a></h4>
-                 <h4>Education : <?php echo $row['education']?></h4>
+	         <h4>Position : <?php echo $row['education']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
-                 <h4>Papers :<?php echo $row['papers']?></h4>
-                </ul>
+            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+                 </ul>
     </li>
         <?php }
         
@@ -125,7 +122,7 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-     $query = "SELECT * FROM addcandidates Where type ='Non PCRU Phd Cndidates'";
+     $query = "SELECT * FROM addcandidates Where type ='Non PCRU Phd Cndidates' ORDER BY name";
      $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
@@ -135,12 +132,11 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	  	 <h4>Author Type :<a href="<?php echo $row['www.google.com']?>"><?php echo $row['type']?></a></h4>
-                 <h4>Education : <?php echo $row['education']?></h4>
+	         <h4>Position : <?php echo $row['education']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
-                 <h4>Papers :<?php echo $row['papers']?></h4>
-                </ul>
+            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+                 </ul>
     </li>
         <?php }
         
@@ -161,7 +157,7 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-     $query = "SELECT * FROM addcandidates Where type ='Key Collaborators'";
+     $query = "SELECT * FROM addcandidates Where type ='Key Collaborators'  ORDER BY name ";
      $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
@@ -171,15 +167,13 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	  	 <h4>Author Type :<a href="<?php echo $row['www.google.com']?>"><?php echo $row['type']?></a></h4>
-                 <h4>Education : <?php echo $row['education']?></h4>
+	         <h4>Position : <?php echo $row['education']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
-                 <h4>Papers :<?php echo $row['papers']?></h4>
-                </ul>
+           <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+                  </ul>
     </li>
         <?php }
-        
         
         ?>
 </ul>

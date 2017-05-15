@@ -2,7 +2,7 @@
 <?php 
 include './header.php';
 ?>
-
+<legend><h3>List Of Researchers</h3></legend>
 
 <ul id="accordion">
 <li><div class="mahadi" >Staff Members </div>
@@ -16,7 +16,7 @@ include './header.php';
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-     $query = "SELECT * FROM addcandidates Where type ='Staff Members'";
+     $query = "SELECT * FROM addcandidates Where type ='Staff Members' ORDER BY name ";
      $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 

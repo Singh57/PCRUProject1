@@ -150,15 +150,15 @@ WWW
     
        <ul class="LIST">
       <li id="homelink" ><a href="index.php">PCRU Home</a></li>
-       <li><a href="viewallresearchers.php">Researchers</a></li>
-     <li><a href="viewallpapers.php">Papers</a></li>
-      <li><a href="viewallmeetings.php">PCRU Meetings</a></li>
+      <li><a href="About.php">About</a></li>
+     <li><a href="viewallpapers.php">Current Papers</a></li>
+      <li><a href="viewallcandidates.php">Members</a></li>
+      <li><a href="viewallmeetings.php">Events/Meetings</a></li>
       <li><a href="viewallprojects.php">Projects</a></li>
-      <li><a href="viewallcandidates.php">Candidates</a></li>
-      <li><a href="addnewdetails.php">Add New Details</a></li>
       <li><a href="Contact.php">Contact Us</a></li>
        <li><a href="login.php">Login Page </a></li>
-      
+        <li><a href="addnewdetails.php">Add New Details</a></li>
+    
       </ul>
       
     <!--[if lte IE 6]>

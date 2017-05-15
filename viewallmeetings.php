@@ -2,6 +2,9 @@
 <?php
      include './header.php';
 ?>
+
+<legend><h3>Details of Events/Meetings</h3></legend>
+
 <ul id="accordion">
     <?php
     
@@ -10,7 +13,7 @@
    $connect = mysqli_connect($hostname, $username, $password);
    mysqli_select_db($connect, $databaseName);
 
-        $query = "SELECT * FROM addmeetings";
+        $query = "SELECT * FROM addmeetings ORDER BY title " ;
         $result = mysqli_query($connect,$query) ;
         $dataArray = array();
 
