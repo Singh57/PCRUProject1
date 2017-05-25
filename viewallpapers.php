@@ -27,11 +27,11 @@ include './header.php';
 		<ul> 
                     
         <h4>Authors : <?php echo $row['authors']?></h4>
-                <h4> Description : <?php echo $row['issues']?></h4>
-                 <h4>Citation :<?php echo $row['token']?></h4>
-                 <h4>Publisher :<?php echo $row['publishing']?></h4>
-                 <h4>Link :<a href="<?php echo $row['links']?>"><?php echo $row['links']?></a></h4>
-                 <h4>Publication Date :<?php echo $row['date']?></h4>
+                <h4> Description : <?php echo $row['description']?></h4>
+                 <h4>Citation :<?php echo $row['citation']?></h4>
+                 <h4>Publisher :<?php echo $row['publisher']?></h4>
+                 <h4>Links:<a href="<?php echo $row['links']?>"><?php echo $row['links']?></a></h4>
+                 <h4>Publication Date :<?php echo $row['publicationdate']?></h4>
                </ul>
     </li>
         <?php }
@@ -64,6 +64,7 @@ $("#accordion1 > li > div").click(function(){
     if(false == $(this).next().is(':visible')) {
         $('#accordion1 ul').slideUp(300);
     }
+ 
     $(this).next().slideToggle(300);
 });
  

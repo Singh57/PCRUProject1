@@ -17,7 +17,7 @@ class PcrModel {
         
         $query = sprintf("INSERT INTO addproject
                           (title,`grants`, synopsis, description,researchers, partners 
-                          , purpose , conferences, patents, softwares, websites )
+                          , grant1 , conferences, patents, softwares, websites )
                           VALUES
                           ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')",
              mysqli_real_escape_string($connect,$researchu->title),
@@ -44,7 +44,7 @@ class PcrModel {
   
         
         $query = sprintf("INSERT INTO addcandidates
-                          (name,type, education, emailid, projects, papers 
+                          (name,type, timezone, emailid, projects, papers 
                          )
                           VALUES
                           ('%s','%s','%s','%s','%s','%s')",
@@ -89,7 +89,7 @@ class PcrModel {
   
         
         $query = sprintf("INSERT INTO addpapers
-                          (title,authors, issues, token, publishing, links, date, status 
+                          (title, authors, description, citation, publisher, links, publicationdate, status 
                          )
                           VALUES
                           ('%s','%s','%s','%s','%s','%s','%s','%s')",

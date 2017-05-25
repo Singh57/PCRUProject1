@@ -69,7 +69,6 @@ else{
        <select style='float:right; margin-right:160px; min-width:265px; ' name='txtType'>
   <option value='Select' >Select</option>}
   <option value='Current Phd Candidates'>Current Phd Candidates</option>
-   <option value='Non PCRU Phd Cndidates'>Non PCRU Phd Cndidates</option>
   <option value='Staff Members'>Staff Members</option>
   <option value='Visitors'>Visitors</option>
  <option value='Key Collaborators'>Key Collaborators</option>
@@ -77,8 +76,8 @@ else{
 
    
 
-        <label for='price'>Position:</label>
-      <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txteducation' /><br/><br/><br/>
+        <label for='price'>timezone:</label>
+      <input type='text' style='float:right; margin-right:160px; min-wsidth:265px;' class='inputField' name='txteducation' /><br/><br/><br/>
 
 
         <label for='roast'>Email ID:</label>

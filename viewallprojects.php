@@ -23,13 +23,14 @@
     <li><div class="mahadi" >Project Title :<?php echo $row['title']?></div>
 		<ul> 
                     
-	  	 <h4>Description :<a href="<?php echo $row['partners']?>"><?php echo $row['description']?></a></h4>
-                 <h4>Grants : <a href="<?php echo $row['http://localhost/PmatPcruProject/index.php']?>"><?php echo $row['grants']?></a></h4>
+	  	  <h4>Description :<?php echo $row['description']?></h4>
+                 <h4>Grants :<?php echo $row['grants']?></h4>               
+                 <h4>Researchers :<?php echo $row['researchers']?></h4>
                  <h4>Synopsis :<?php echo $row['synopsis']?></h4>
                  <h4>Researchers :<?php echo $row['researchers']?></h4>
                  <h4>Partners :<?php echo $row['partners']?></h4>
                      <legend><h3>Output</h3></legend><br/>
-                 <h4>Grant :<?php echo $row['purpose']?></h4>
+                 <h4>Grant :<?php echo $row['grant1']?></h4>
                  <h4>Conferences :<?php echo $row['conferences']?></h4>
                 <h4>Patent :<a href="<?php echo $row['patents']?>"><?php echo $row['patents']?></a></h4>
                  <h4>Software :<?php echo $row['softwares']?></h4>

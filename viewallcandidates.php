@@ -27,7 +27,7 @@ include './header.php';
     <li><div class="mahadi1" ><?php echo $row['name']?></div>
 		<ul> 
                     
-	  	 <h4>Position : <?php echo $row['education']?></h4>
+	  	 <h4>Timezone : <?php echo $row['timezone']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
              <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
@@ -62,7 +62,7 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-                 <h4>Position : <?php echo $row['education']?></h4>
+                 <h4>Timezone : <?php echo $row['timezone']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
@@ -97,7 +97,7 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	         <h4>Position : <?php echo $row['education']?></h4>
+	         <h4>Timezone : <?php echo $row['timezone']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
             <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
@@ -110,40 +110,6 @@ include './header.php';
 </ul>
 </ul>
 
-<ul id="accordion">
-<li><div class="mahadi" >Non PCRU Phd Candidates </div>
-		
-    
-    <ul id="accordion1">    
-    <?php
-    
-    
-    include './Model/Credentials.php ';
-   $connect = mysqli_connect($hostname, $username, $password);
-   mysqli_select_db($connect, $databaseName);
-
-     $query = "SELECT * FROM addcandidates Where type ='Non PCRU Phd Cndidates' ORDER BY name";
-     $result = mysqli_query($connect,$query) ;
-        $dataArray = array();
-
-        //Get data from database.
-        while ($row = mysqli_fetch_array($result)) {
-        ?>
-    <li><div  class="mahadi1"><?php echo $row['name']?></div>
-		<ul> 
-                    
-	         <h4>Position : <?php echo $row['education']?></h4>
-                 <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Projects :<?php echo $row['projects']?></h4>
-            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
-                 </ul>
-    </li>
-        <?php }
-        
-        
-        ?>
-</ul>
-</ul>
 
 <ul id="accordion">
 <li><div class="mahadi" >Key Collabrators </div>
@@ -167,7 +133,7 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	         <h4>Position : <?php echo $row['education']?></h4>
+	         <h4>Timezone : <?php echo $row['timezone']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
                  <h4>Projects :<?php echo $row['projects']?></h4>
            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>

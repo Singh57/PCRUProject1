@@ -157,7 +157,7 @@ WWW
       <li><a href="viewallprojects.php">Projects</a></li>
       <li><a href="Contact.php">Contact Us</a></li>
        <li><a href="login.php">Login Page </a></li>
-        <li><a href="addnewdetails.php">Add New Details</a></li>
+      
     
       </ul>
       

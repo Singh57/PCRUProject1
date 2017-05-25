@@ -59,17 +59,18 @@ else{
         
 
 <label  for='name' >Titles :  </label>
-        <input type='text' style='float:right; margin-right:170px; min-width:265px; ' class='inputField' name='txtTitle' /><br/><br/>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtTitle'></textarea></br><br/></br></br>
 
   <label for='country'>Grants: </label>
-        <input type='text' style='float:right; margin-right:170px; min-width:265px;' class='inputField' name='txtGrant' /><br/><br/>
+        <textarea class='fortextarea' cols='30' rows='3' name='txtGrants'></textarea></br><br/></br></br>
+        
 
         <label for='price'>Synopsis:</label>
            <textarea class='fortextarea' cols='30' rows='3' name='txtSynopsis'></textarea></br><br/></br></br>
 
 
         <label for='roast'>Description:</label>
-         <textarea class='fortextarea' cols='30'  rows='3' name='txtDescription'></textarea></br><br/></br></br>
+         <textarea class='fortextarea' cols='45'  rows='8' name='txtDescription'></textarea></br><br/></br></br><br/></br></br></br></br>
 
       
         <label for='review'>Researchers: </label>
