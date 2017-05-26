@@ -6,9 +6,9 @@ $content = '<h3>Administration Panel</h3>
       <ul class="LIST">
       <li><h5><a href="addnewproject.php">Add New Project</a></h5></li>
       <li><h5><a href="addcandidates.php">Add New Members</a></h5></li>
-      <li><h5><a href="addpapers.php">Add New Paper</a></h5></li>
+      <li><h5><a href="addpapers1.php">Add New Paper</a></h5></li>
       <li><h5><a href="addmeetings.php">Add PCRU Event/Meeting</a></h5></li>
-      <li><h5><a href="viewpapers.php">View Papers Details</a></h5></li><br/><br/>
+      <li><h5><a href="viewpapers_1.php">View Papers Details</a></h5></li><br/><br/>
      </ul>
  </div>
 

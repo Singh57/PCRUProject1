@@ -151,7 +151,7 @@ WWW
        <ul class="LIST">
       <li id="homelink" ><a href="index.php">PCRU Home</a></li>
       <li><a href="About.php">About</a></li>
-     <li><a href="viewallpapers.php">Current Papers</a></li>
+     <li><a href="viewallpapers_1.php">Published Papers</a></li>
       <li><a href="viewallcandidates.php">Members</a></li>
       <li><a href="viewallmeetings.php">Events/Meetings</a></li>
       <li><a href="viewallprojects.php">Projects</a></li>

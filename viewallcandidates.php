@@ -27,9 +27,8 @@ include './header.php';
     <li><div class="mahadi1" ><?php echo $row['name']?></div>
 		<ul> 
                     
-	  	 <h4>Timezone : <?php echo $row['timezone']?></h4>
-                 <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Projects :<?php echo $row['projects']?></h4>
+	        <h4>Email ID :<?php echo $row['emailid']?></h4>
+                 <h4>Project-Link :<?php echo $row['projects']?></h4>
              <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                          </ul>
     </li>
@@ -62,9 +61,9 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-                 <h4>Timezone : <?php echo $row['timezone']?></h4>
+                 <h4>PhD Students : <?php echo $row['phdstudents']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Projects :<?php echo $row['projects']?></h4>
+                 <h4>Project-Link:<?php echo $row['projects']?></h4>
            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                   </ul>
     </li>
@@ -97,9 +96,8 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	         <h4>Timezone : <?php echo $row['timezone']?></h4>
-                 <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Projects :<?php echo $row['projects']?></h4>
+	          <h4>Email ID :<?php echo $row['emailid']?></h4>
+                 <h4>Project-Link :<?php echo $row['projects']?></h4>
             <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                  </ul>
     </li>
@@ -133,9 +131,8 @@ include './header.php';
     <li><div  class="mahadi1"><?php echo $row['name']?></div>
 		<ul> 
                     
-	         <h4>Timezone : <?php echo $row['timezone']?></h4>
-                 <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Projects :<?php echo $row['projects']?></h4>
+	         <h4>Email ID :<?php echo $row['emailid']?></h4>
+                 <h4>Project-Link :<?php echo $row['projects']?></h4>
            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                   </ul>
     </li>

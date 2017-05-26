@@ -6,7 +6,7 @@ require './Controller/PcrController.php';
 $pcrController = new PcrController();
 
 
-$title = "Addproject";
+$title = "Add Papers";
 
 if(isset($_GET["update"]))
 {
@@ -20,7 +20,7 @@ $content = "
 <form action='' method='post'>
     <fieldset>
     
-        <legend><h3>Add New Member</h3></legend><br/>
+        <legend><h3>Add New Candidate</h3></legend><br/>
        
 <label for='name' >: </label><br/>
        <label for='name' >Name: </label><br/>
@@ -56,43 +56,28 @@ else{
    $content = "<form action='' method='post'>
     <fieldset>
     
-        <legend><h3>Add New Member</h3></legend><br/>
+        <legend><h3>Add New Paper</h3></legend><br/>
         
 
-        
+       <label  for='name' >Title :  </label>
+        <input type='text' style='float:right; margin-right:130px; min-width:265px; ' class='inputField' name='txtTitle' /><br/><br/><br/>
 
-<label  for='name' >Name :  </label>
-        <input type='text' style='float:right; margin-right:160px; min-width:265px; ' class='inputField' name='txtName' /><br/><br/><br/>
+
+<label for='roast'>Link :</label>
+        <input type='text' style='float:right; margin-right:130px; min-width:265px;' class='inputField' name='txtLinks' /><br/><br/><br/>
 
  
-<label for='country'>Type: </label>
-       <select style='float:right; margin-right:160px; min-width:265px; ' name='txtType'>
+           <label for='review'>Status: </label>
+             <select style='float:right; margin-right:130px; min-width:265px; ' name='txtStatus'>
   <option value='Select' >Select</option>}
-  <option value='Current Phd Candidates'>Current Phd Candidates</option>
-  <option value='Staff Members'>Staff Members</option>
-  <option value='Visitors'>Visitors</option>
- <option value='Key Collaborators'>Key Collaborators</option>
-    </select> <br/><br/><br/>
-
-   
-
-        <label for='price'>Phd Students:</label>
-        <textarea style='float:right;margin-right:160px;' cols='30' rows='3' name='txteducation'></textarea></br><br/></br></br>
-
-
-        <label for='roast'>Email ID:</label>
-        <input type='text' style='float:right; margin-right:160px; min-width:265px;' class='inputField' name='txtemailid' /><br/><br/><br/>
-
-      
-        <label for='review'>Project Link: </label>
-        <textarea style='float:right;margin-right:160px;' cols='30' rows='2' name='txtprojects'></textarea></br><br/></br>
-
-           <label for='review'>Paper Link: </label>
-           <textarea  style='float:right;margin-right:160px;' cols='30' rows='2' name='txtpapers'></textarea></br><br/></br><br/>
-
+    <option value='Published Papers'>Published Papers</option>
+ <option value='Papers In Progress'>Papers In Progress</option>
+  <option value='Proposed Papers'>Proposed Papers</option>
+   </select> <br/><br/><br/>
+    
 
 <input style='float:right; margin-right:300px; background: white;  color : #990000;'  
-type='submit' name='addcandidates' value='Submit'><br/><br/>
+type='submit' name='addnewpapers' value='Submit'><br/><br/>
     </fieldset>
 </form>";
 }
@@ -107,9 +92,9 @@ if(isset($_GET["update"]))
 }
 else
 {
-    if(isset($_POST["addcandidates"]))
+    if(isset($_POST["addnewpapers"]))
     {
-        $pcrController->InsertCandidateData($_POST);
+        $pcrController->InsertNewPapersData1($_POST);
     }
 }
 

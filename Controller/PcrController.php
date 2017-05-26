@@ -110,6 +110,17 @@ class PcrController {
         
     }
     
+    function InsertNewPapersData1($POST) {
+        $title = $POST["txtTitle"];
+         $links = $POST["txtLinks"];
+      $status = $POST["txtStatus"];
+      
+        $researchu = new PcrEntity4($title, $links, $status);
+        $pcrModel = new PcrModel();
+        $pcrModel->InsertNewPapersData1($researchu);
+        
+    }
+    
      //<editor-fold desc="Set Methods">
     function InsertmeetingsData($POST) {
          $name = $POST["txtName"];

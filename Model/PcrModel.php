@@ -2,6 +2,7 @@
 require ("Entities/PcrEntity.php");
 require ("Entities/PcrEntity2.php");
 require ("Entities/PcrEntity3.php");
+require ("Entities/PcrEntity4.php");
 
 //Contains database related code for the Coffee page.
 class PcrModel {
@@ -44,7 +45,7 @@ class PcrModel {
   
         
         $query = sprintf("INSERT INTO addcandidates
-                          (name,type, timezone, emailid, projects, papers 
+                          (name,type, phdstudents, emailid, projects, papers 
                          )
                           VALUES
                           ('%s','%s','%s','%s','%s','%s')",
@@ -106,6 +107,24 @@ class PcrModel {
               $this->PerformQuery($query);
     }
     
+    function InsertNewPapersData1(PcrEntity4 $researchu) {
+         require ('Credentials.php'); 
+        $connect = mysqli_connect($hostname, $username, $password);
+         mysqli_select_db($connect, $databaseName);
+  
+        
+        $query = sprintf("INSERT INTO addnewpaper
+                          (title,link, status 
+                        )
+                          VALUES
+                          ('%s','%s','%s')",
+             mysqli_real_escape_string($connect,$researchu->title),
+                  mysqli_real_escape_string($connect,$researchu->link),
+                 mysqli_real_escape_string($connect,$researchu->status));
+        
+                 
+              $this->PerformQuery($query);
+    }
     
     function UpdateNewProjectData($id, PcrEntity $researchu) {
           require ('Credentials.php'); 
