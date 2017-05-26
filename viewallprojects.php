@@ -24,8 +24,7 @@
 		<ul> 
                     
 	  	  <h4>Description :<?php echo $row['description']?></h4>
-                 <h4>Grants :<?php echo $row['grants']?></h4>               
-                 <h4>Researchers :<?php echo $row['researchers']?></h4>
+                 <h4>Grants :<?php echo $row['grants']?></h4>                
                  <h4>Synopsis :<?php echo $row['synopsis']?></h4>
                  <h4>Researchers :<?php echo $row['researchers']?></h4>
                  <h4>Partners :<?php echo $row['partners']?></h4>
