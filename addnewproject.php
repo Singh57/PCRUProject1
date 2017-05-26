@@ -70,7 +70,8 @@ else{
 
 
         <label for='roast'>Description:</label>
-         <textarea class='fortextarea' cols='45'  rows='8' name='txtDescription'></textarea></br><br/></br></br><br/></br></br></br></br>
+         <textarea class='fortextarea' cols='30'  rows='10' name='txtDescription'></textarea></br><br/></br></br>
+         <br/></br></br></br></br></br>
 
       
         <label for='review'>Researchers: </label>

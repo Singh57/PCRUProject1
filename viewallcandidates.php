@@ -28,7 +28,7 @@ include './header.php';
 		<ul> 
                     
 	        <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Project-Link :<?php echo $row['projects']?></h4>
+             <h4>Project-Link:<a href="<?php echo $row['projects']?>"><?php echo $row['projects']?></a></h4>
              <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                          </ul>
     </li>
@@ -63,8 +63,8 @@ include './header.php';
                     
                  <h4>PhD Students : <?php echo $row['phdstudents']?></h4>
                  <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Project-Link:<?php echo $row['projects']?></h4>
-           <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+              <h4>Project-Link:<a href="<?php echo $row['projects']?>"><?php echo $row['projects']?></a></h4>
+          <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                   </ul>
     </li>
         <?php }
@@ -97,8 +97,8 @@ include './header.php';
 		<ul> 
                     
 	          <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Project-Link :<?php echo $row['projects']?></h4>
-            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+                <h4>Project-Link:<a href="<?php echo $row['projects']?>"><?php echo $row['projects']?></a></h4>
+           <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                  </ul>
     </li>
         <?php }
@@ -132,8 +132,8 @@ include './header.php';
 		<ul> 
                     
 	         <h4>Email ID :<?php echo $row['emailid']?></h4>
-                 <h4>Project-Link :<?php echo $row['projects']?></h4>
-           <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
+            <h4>Project-Link:<a href="<?php echo $row['projects']?>"><?php echo $row['projects']?></a></h4>
+            <h4>Paper-Link:<a href="<?php echo $row['papers']?>"><?php echo $row['papers']?></a></h4>
                   </ul>
     </li>
         <?php }
