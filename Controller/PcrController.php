@@ -60,7 +60,7 @@ class PcrController {
         $title = $POST["txtTitle"];
         $synopsis = $POST["txtSynopsis"];
         $description = $POST["txtDescription"];
-        $grant = $POST["txtGrant"];
+        $grant = $POST["txtGrants"];
         $researchers = $POST["txtResearchers"];
         $partners = $POST["txtPartners"];
       
